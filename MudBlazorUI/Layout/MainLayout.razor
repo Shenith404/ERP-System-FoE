@@ -1,0 +1,122 @@
+﻿@using MudBlazorUI.Pages
+@inherits LayoutComponentBase
+@inject IDialogService Dialog
+
+
+<MudThemeProvider IsDarkMode="@themeOn" />
+<MudDialogProvider FullWidth="true"
+                   MaxWidth="MaxWidth.ExtraSmall"
+                   CloseButton="true"
+                   DisableBackdropClick="true"
+                   NoHeader="true"
+                   Position="DialogPosition.Center"
+                   CloseOnEscapeKey="true" />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar  Elevation="2" Style="background-color: rgba(0, 0, 0, 0.5); width: 100%">
+       
+        <AuthorizeView>
+            <Authorized>
+                <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
+                               Color="Color.Inherit"
+                               Edge="Edge.Start"
+                               OnClick="@DrawerToggle" />
+            </Authorized>
+        </AuthorizeView>
+
+        <MudText Typo="Typo.h5" Class="px-4">Faculty of Engineering</MudText>
+
+        <MudSpacer />
+
+        <AuthorizeView>
+            <NotAuthorized>
+                <MudButton StartIcon="@Icons.Material.Filled.Login"
+                           OnClick="NavigateToLogin"
+                           Color="Color.Inherit"> Login </MudButton>
+            </NotAuthorized>
+        </AuthorizeView>
+
+        <MudTooltip Text="Theme">
+            <MudSwitch @bind-Checked="@themeOn" Color="Color.Inherit" OnCheckedChanged="@ToggleTheme()" ThumbIcon="@(themeOn==true ? Icons.Material.Sharp.DarkMode : Icons.Material.Sharp.LightMode)"
+                       ThumbIconColor="@(themeOn==true ? Color.Warning : Color.Warning)" />
+        </MudTooltip>
+       <AuthorizeView>
+           <Authorized>
+                <MudTooltip Text="Notifications">
+                    <MudBadge Dot="true" Color="Color.Info" Class="mx-6 my-4" Overlap="true">
+                        <MudIconButton Icon="@Icons.Material.Filled.Notifications" Color="Color.Primary"
+                                       OnClick="@((e) => OpenNotifications())" aria-label="notifications">
+
+                        </MudIconButton>
+                    </MudBadge>
+                </MudTooltip>
+                <MudTooltip Text="Profile">
+                        <MudIconButton Icon="@Icons.Material.Filled.ManageAccounts" Color="Color.Secondary"
+                                      Href="/profile" aria-label="notifications">
+
+                        </MudIconButton>
+                </MudTooltip>
+           </Authorized>
+       </AuthorizeView>
+
+    </MudAppBar>
+      
+    <AuthorizeView>
+        <Authorized>
+            <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+                <NavMenu />
+            </MudDrawer>
+        </Authorized>
+    </AuthorizeView>
+
+      @Body
+   
+</MudLayout>
+
+
+
+<Footer/>
+@code {
+    private bool _drawerOpen = true;
+    private bool themeOn;
+
+
+    private void NavigateToLogin()
+    {
+        NavigationManager.NavigateTo("/login");
+    }
+
+    private void OpenNotifications()
+    {
+        NavigationManager.NavigateTo("Notifications");
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        string? theme = await userProfile.GetTheme();
+        themeOn = !string.IsNullOrEmpty(theme) && theme.Equals("dark", StringComparison.OrdinalIgnoreCase);
+        await base.OnInitializedAsync();
+    }
+
+    private void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+    private async Task<bool> ToggleTheme()
+    {
+        if (themeOn == true)
+        {
+            await userProfile.SetDarkTheme("dark");
+
+        }
+        else
+        {
+            await userProfile.SetDarkTheme("light");
+
+        }
+        return themeOn;
+    }
+}

@@ -1,0 +1,29 @@
+﻿@using MudBlazorUI.Notification_Service.DTOs
+
+@inject HttpClient httpClient
+
+@attribute [Authorize]
+
+<div>
+    <MudText Typo="Typo.h6">@Notification.Title</MudText>
+    <div style="height:auto;margin-top:15px">
+        <MudText>@Notification.Content</MudText>
+        <MudLink Href="@Notification.Link" Target="_blank">Link 1</MudLink>
+    </div>
+    <div style="display:flex;justify-content:end">
+        <MudText Typo="Typo.subtitle2">@Notification.AddedDate</MudText>
+    </div>
+   
+</div>
+
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+
+
+    [Parameter]
+    public NotificationResponseDTO Notification { get; set; } = new NotificationResponseDTO();
+
+    void Submit() => MudDialog.Close(DialogResult.Ok(true));
+    void Cancel() => MudDialog.Cancel();
+}

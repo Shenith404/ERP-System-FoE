@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\auth service\\const\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\auth service\\const\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1620405281:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1876394918:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T15:59:37.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T15:57:25.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Program.cs",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Program.cs",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Program.cs",
+              "RelativeToolTip": "MudBlazorUI\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:56:02.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\App.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\App.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\App.razor",
+              "RelativeToolTip": "MudBlazorUI\\App.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:31:41.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Auth Service\\Const\\UserProfile.cs",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Auth Service\\Const\\UserProfile.cs",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Auth Service\\Const\\UserProfile.cs",
+              "RelativeToolTip": "MudBlazorUI\\Auth Service\\Const\\UserProfile.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:27:26.365Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

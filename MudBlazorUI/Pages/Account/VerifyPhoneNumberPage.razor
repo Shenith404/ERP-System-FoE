@@ -1,0 +1,147 @@
+﻿@page "/verifyphonenumber"
+@layout NoNavLayout
+
+<div class="page">
+    <MudLayout>
+        <div style="background-image: url('Assets/background-login.png'); background-size: cover; background-position: center; height: 430px; width: 100%; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+                <MudImage Src="Assets/image3.png" Alt="UOR" Width="80" Height="100" Elevation="30" Class="rounded-lg" />
+                <div style="display: flex; flex-direction: column; align-items: center; padding-left: 20px; padding-right: 20px;">
+                    <MudText Typo="Typo.h3" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">FACULTY OF ENGINEERING</MudText>
+                    <MudText Typo="Typo.h5" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">UNIVERSITY OF RUHUNA</MudText>
+                </div>
+                <MudImage Src="Assets/image2.png" Alt="UOR" Width="80" Height="100" Elevation="30" Class="rounded-lg" />
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; position: relative; margin-top: -110px; margin-bottom: 100px; mx-auto;">
+
+            <MudPaper Class="pa-10" Style="color: #353C72;  display:flex; font-size: 13px; justify-content: center; align-items: center; margin-top: 25px; border-radius: 8px;">
+                <div style="width: 390px; height: 400px; position: relative;  border-radius: 8px; padding-right:10px">
+                    <div class="header">Verify Your Phone Number</div>
+                    <div class="info">
+                        Please enter the 6 digit code sent to your
+                        mobile number @Phonenumber
+                    </div>
+                    <div class="code">
+
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code1" MaxLength="1" />
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code2" MaxLength="1" />
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code3" MaxLength="1" />
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code4" MaxLength="1" />
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code5" MaxLength="1" />
+                        <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code6" MaxLength="1" />
+                    </div>
+                    <div class="code-button">
+                        <MudButton @onclick="Verify" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Class="verify-button">
+                            Verify
+                        </MudButton>
+                    </div>
+                    <div class="try-another">Try another method</div>
+                    <div class="resend">
+                        Didn't receive a code ?
+                        <MudLink Href="/resend" Underline="Underline.None" Class="resend-link">
+                            Resend
+                        </MudLink>
+                    </div>
+                </div>
+            </MudPaper>
+        </div>
+    </MudLayout>
+</div>
+
+<style>
+    .header {
+        left: 80px;
+        top: 40px;
+        position: absolute;
+        color: #353C72;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 40px;
+        word-wrap: break-word;
+    }
+
+    .info {
+        width: 282px;
+        height: 46px;
+        left: 67px;
+        top: 96px;
+        position: absolute;
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        font-family: Inter;
+        font-weight: 400;
+        line-height: 15px;
+        word-wrap: break-word;
+    }
+
+    .code {
+        width: 270px;
+        left: 73px;
+        top: 180px;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        display: inline-flex;
+    }
+
+    .code-button {
+        width: 270px;
+        left: 73px;
+        top: 260px;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .try-another {
+        left: 136px;
+        top: 340px;
+        position: absolute;
+        color: #3549FD;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        text-decoration: underline;
+        line-height: 24px;
+        word-wrap: break-word;
+    }
+
+    .resend {
+        left: 100px;
+        top: 310px;
+        position: absolute;
+        color: black;
+        font-size: 14px;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 24px;
+        word-wrap: break-word;
+    }
+
+    .resend-link {
+        color: #3549FD;
+        text-decoration: underline;
+    }
+</style>
+
+@code {
+    private string Phonenumber = "+94 ** *****123";
+    private string Code1 { get; set; }
+    private string Code2 { get; set; }
+    private string Code3 { get; set; }
+    private string Code4 { get; set; }
+    private string Code5 { get; set; }
+    private string Code6 { get; set; }
+
+    private void Verify()
+    {
+        string verificationCode = $"{Code1}{Code2}{Code3}{Code4}{Code5}{Code6}";
+        // Add logic here to verify the email with the verification code
+    }
+}

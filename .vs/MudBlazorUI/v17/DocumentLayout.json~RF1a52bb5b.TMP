@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\blazorui-with-mudblazor-.net\\mudblazorui\\layout\\mymudproviders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\mymudproviders.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1620405281:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1876394918:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Footer.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\Footer.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\Footer.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\Footer.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\Footer.razor",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T09:52:43.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Pages\\HomePage.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\HomePage.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Pages\\HomePage.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\HomePage.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T09:52:26.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyMudProviders.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MyMudProviders.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MyMudProviders.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MyMudProviders.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\MyMudProviders.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T09:52:23.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T09:52:17.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

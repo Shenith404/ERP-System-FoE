@@ -1,0 +1,110 @@
+﻿
+
+@page "/"
+@layout MainLayout
+@using Microsoft.AspNetCore.Authorization
+@using MudBlazorUI.Components.Shared
+
+
+<!--Slide show Section-->
+
+<MudCarousel Class="mud-width-full" Style="height:800px;" TData="string" AutoCycle="true" Interval="5000">
+    @foreach (var imageUrl in ImageUrls)
+    {
+        <MudCarouselItem Transition="Transition.Slide">
+            <div class="d-flex" style="height:100%; padding: 0; margin: 0;">
+                <img src="@imageUrl" style="width: 100%; height: auto;" />
+            </div>
+        </MudCarouselItem>
+    }
+</MudCarousel>
+
+
+<!-- About Section -->
+<MudContainer style="margin-top: 150px; margin-bottom: 150px;">
+    <MudGrid>
+        <!-- Left Column: Image -->
+        <MudItem xs="12" md="6">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="./Assets/4.png" alt="About Us Image" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);" />
+            </div>
+        </MudItem>
+
+        <!-- Right Column: About Us Content -->
+        <MudItem xs="12" md="6">
+            <div style="padding: 20px;">
+                <h2 style="font-size: 24px; margin-bottom: 10px;">About Us</h2>
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et urna sit amet quam vehicula volutpat. Integer vel nisi sapien.
+                    Duis nec risus vel mauris lacinia vestibulum. Nam volutpat nulla in eros consequat, vitae tincidunt tortor convallis.
+                </p>
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
+                    Mauris interdum semper metus, at facilisis ex tincidunt sit amet. Vestibulum nec ipsum tincidunt, laoreet nisi ac, consequat felis.
+                    Phasellus vel lectus vitae tortor placerat lacinia. Curabitur fermentum interdum urna nec ullamcorper.
+                </p>
+                <!-- Clickable Button -->
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" href="https://www.eng.ruh.ac.lk/" target="_blank">Visit Website</MudButton>
+            </div>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
+
+
+<!-- Card Section-->
+
+<MudGrid Class="d-flex justify-center mt-4 mb-4 ">
+    <MudItem Class="mt-4 mb-4 animate__animated animate__fadeInLeft">
+        <PortalLoginCard Image="./Assets/4.png"
+                      Title="Admin Portal"
+                         Content1="The admin portal provides access to administrative tools for managing the entire ERP system, including user management, "
+                         Content2=" system settings, security configurations, data analytics, and reporting."
+                      Button1Text="Login"
+                       />
+    </MudItem>
+    <MudItem Class="mt-4 mb-4">
+        <PortalLoginCard Image="./Assets/2.png"
+                      Title="Student Portal"
+                      Content1="This portal is designed for students to access information related to their courses, grades,"
+                         Content2=" schedules, academic progress,results and any of relevant announcements or events."
+                         Button1Text="Login" />
+    </MudItem>
+    <MudItem Class="mt-4 mb-4">
+        <PortalLoginCard Image="./Assets/1.png"
+                      Title="Department Portal"
+                         Content1="This portal focuses on department-specific functions such as curriculum management, faculty resources,"
+                         Content2=" research activities, and collaboration within the department."
+                         Button1Text="Login" />
+    </MudItem>
+    <MudItem Class="mt-4 mb-4">
+        <PortalLoginCard Image="./Assets/3.png"
+                         Title="Acedamic Portal"
+                         Content1="This portal covers academic-related activities, including curriculum planning, course catalog management, "
+                         Content2="academic calendar updates, assessment and grading tools, and academic performance analysis."
+                         Button1Text="Login" />
+    </MudItem>
+    <MudItem Class="mt-4 mb-4">
+        <PortalLoginCard Image="./Assets/5.png"
+                         Title="Staff Portal"
+                         Content1="The staff portal is for faculty and administrative staff to manage course materials, student records,"
+                         Content2=" academic policies, scheduling, and communication with students and other staff members."
+                         Button1Text="Login" />
+    </MudItem>
+</MudGrid>
+
+
+
+
+
+@code {
+
+    private List<string> ImageUrls = new List<string>
+    {
+        "./Assets/1.png",
+        "./Assets/2.png",
+        "./Assets/3.png",
+        "./Assets/4.png",
+        "./Assets/5.png",
+    };
+
+    
+}

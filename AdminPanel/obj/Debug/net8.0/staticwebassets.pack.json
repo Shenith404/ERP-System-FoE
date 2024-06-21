@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\obj\\Debug\\net8.0\\compressed\\tpr7f2dehj.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdminPanel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AdminPanel.props",
+      "PackagePath": "build\\AdminPanel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AdminPanel.props",
+      "PackagePath": "buildMultiTargeting\\AdminPanel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AdminPanel.props",
+      "PackagePath": "buildTransitive\\AdminPanel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

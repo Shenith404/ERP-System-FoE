@@ -1,0 +1,18 @@
+﻿
+@inherits LayoutComponentBase
+@layout MainLayout
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+@Body
+
+@code{
+    private bool themeOn;
+    protected override async Task OnInitializedAsync()
+    {
+        string? theme = await userProfile.GetTheme();
+        themeOn = !string.IsNullOrEmpty(theme) && theme.Equals("dark", StringComparison.OrdinalIgnoreCase);
+        await base.OnInitializedAsync();
+    }
+}
