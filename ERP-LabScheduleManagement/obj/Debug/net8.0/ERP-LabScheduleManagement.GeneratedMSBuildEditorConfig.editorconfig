@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = ERP_LabScheduleManagement
 build_property.RootNamespace = ERP_LabScheduleManagement
-build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement\
+build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement
+build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleAdd.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = TGFiU2NoZWR1bGVDb21wb25lbnRzXExhYlNjaGVkdWxlQWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleFilter.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleFilter.razor]
 build_metadata.AdditionalFiles.TargetPath = TGFiU2NoZWR1bGVDb21wb25lbnRzXExhYlNjaGVkdWxlRmlsdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleList.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleList.razor]
 build_metadata.AdditionalFiles.TargetPath = TGFiU2NoZWR1bGVDb21wb25lbnRzXExhYlNjaGVkdWxlTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleOverview.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = TGFiU2NoZWR1bGVDb21wb25lbnRzXExhYlNjaGVkdWxlT3ZlcnZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleTabs.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/LabScheduleComponents/LabScheduleTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = TGFiU2NoZWR1bGVDb21wb25lbnRzXExhYlNjaGVkdWxlVGFicy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/MyMudThemeProvider.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/MyMudThemeProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRUaGVtZVByb3ZpZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/_Imports.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-LabScheduleManagement/MyMudProvider.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-LabScheduleManagement/MyMudProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRQcm92aWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ag72rvtw0a

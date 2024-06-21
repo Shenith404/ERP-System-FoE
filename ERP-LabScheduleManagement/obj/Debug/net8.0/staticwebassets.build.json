@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0w1sxlNRVcwBxwqATJ+7M/jCRGktx3DkXPHRyIUe8ec=",
+  "Hash": "28Z4cX/GJ5DHmfUuy9wld9wwIuISdKv7/+RLYoii3aY=",
   "Source": "ERP-LabScheduleManagement",
   "BasePath": "_content/ERP-LabScheduleManagement",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ERP-LabScheduleManagement\\wwwroot",
       "Source": "ERP-LabScheduleManagement",
-      "ContentRoot": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\riyaj\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\SHENITH\\.nuget\\packages\\mudblazor\\6.19.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ERP-LabScheduleManagement.styles.css",
+      "Identity": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ERP-LabScheduleManagement.styles.css",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "ERP-LabScheduleManagement.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ERP-LabScheduleManagement.styles.css"
+      "OriginalItemSpec": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ERP-LabScheduleManagement.styles.css"
     },
     {
-      "Identity": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-LabScheduleManagement.bundle.scp.css",
+      "Identity": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-LabScheduleManagement.bundle.scp.css",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "ERP-LabScheduleManagement.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-LabScheduleManagement.bundle.scp.css"
+      "OriginalItemSpec": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-LabScheduleManagement.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\background.png",
+      "Identity": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\background.png",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\exampleJsInterop.js",
       "SourceId": "ERP-LabScheduleManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
+      "ContentRoot": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\wwwroot\\",
       "BasePath": "_content/ERP-LabScheduleManagement",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
