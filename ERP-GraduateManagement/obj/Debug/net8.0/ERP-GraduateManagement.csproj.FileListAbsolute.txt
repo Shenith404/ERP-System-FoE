@@ -47,3 +47,4 @@ E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement\obj\Debug\net8.0\ERP-
 E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement\obj\Debug\net8.0\refint\ERP-GraduateManagement.dll
 E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement\obj\Debug\net8.0\ERP-GraduateManagement.pdb
 E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement\obj\Debug\net8.0\ref\ERP-GraduateManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-GraduateManagement\obj\Debug\net8.0\scopedcss\Component1.razor.rz.scp.css
