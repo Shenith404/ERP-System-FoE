@@ -95,7 +95,7 @@
     {
         try
         {
-            _graduate = await Http.GetFromJsonAsync<UpdateGraduateRequest>($"https://localhost:7010/api/Graduates/{graduateId}");
+            _graduate = await Http.GetFromJsonAsync<UpdateGraduateRequest>($"https://localhost:7111/ApiGateWay/Graduate-api/Graduates/{graduateId}");
         }
         catch (Exception ex)
         {

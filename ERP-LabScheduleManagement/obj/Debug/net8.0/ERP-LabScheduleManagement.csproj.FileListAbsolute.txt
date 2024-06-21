@@ -22,3 +22,27 @@ E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement\
 E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\refint\ERP-LabScheduleManagement.dll
 E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.pdb
 E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ref\ERP-LabScheduleManagement.dll
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\bin\Debug\net8.0\ERP-LabScheduleManagement.staticwebassets.runtime.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\bin\Debug\net8.0\ERP-LabScheduleManagement.deps.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\bin\Debug\net8.0\ERP-LabScheduleManagement.dll
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\bin\Debug\net8.0\ERP-LabScheduleManagement.pdb
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.csproj.AssemblyReference.cache
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.AssemblyInfoInputs.cache
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.AssemblyInfo.cs
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.csproj.CoreCompileInputs.cache
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.sourcelink.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets.build.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets.development.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets\msbuild.ERP-LabScheduleManagement.Microsoft.AspNetCore.StaticWebAssets.props
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.ERP-LabScheduleManagement.props
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ERP-LabScheduleManagement.props
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ERP-LabScheduleManagement.props
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\staticwebassets.pack.json
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\scopedcss\MyMudProvider.razor.rz.scp.css
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\scopedcss\bundle\ERP-LabScheduleManagement.styles.css
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\scopedcss\projectbundle\ERP-LabScheduleManagement.bundle.scp.css
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.dll
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\refint\ERP-LabScheduleManagement.dll
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ERP-LabScheduleManagement.pdb
+E:\University\GitHub\ERP-System-FoE\ERP-LabScheduleManagement\obj\Debug\net8.0\ref\ERP-LabScheduleManagement.dll

@@ -9,99 +9,99 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = ERP_WorkLoadManagement
 build_property.RootNamespace = ERP_WorkLoadManagement
-build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-WorkLoadManagement\
+build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\ERP-WorkLoadManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-WorkLoadManagement
+build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\ERP-WorkLoadManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/MyMudThemeProvider.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/MyMudThemeProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRUaGVtZVByb3ZpZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignedWorkList.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignedWorkList.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnbmVkV29ya0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignModule.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignModule.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnbk1vZHVsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignOther.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignOther.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnbk90aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignPosition.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignPosition.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnblBvc2l0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignWorkOverview.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignWorkOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnbldvcmtPdmVydmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignWorkTab.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/AssignWorkTab.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEFzc2lnbldvcmtUYWIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/EditAssignWorkDialog.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/AssignWork/EditAssignWorkDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xBc3NpZ25Xb3JrXEVkaXRBc3NpZ25Xb3JrRGlhbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/EditStaffDialog.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/EditStaffDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxFZGl0U3RhZmZEaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffAdd.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxTdGFmZkFkZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffFilter.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffFilter.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxTdGFmZkZpbHRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffList.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffList.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxTdGFmZkxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffOverview.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxTdGFmZk92ZXJ2aWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffTabs.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Staff/StaffTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xTdGFmZlxTdGFmZlRhYnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/AddWork.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/AddWork.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xBZGRXb3JrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/EditWorkDialog.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/EditWorkDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xFZGl0V29ya0RpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/FilterWork.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/FilterWork.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xGaWx0ZXJXb3JrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/ListOfWorks.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/ListOfWorks.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xMaXN0T2ZXb3Jrcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/WorksOverview.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/WorksOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xXb3Jrc092ZXJ2aWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/WorkTabs.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/WorkLoadManagementComponents/Works/WorkTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = V29ya0xvYWRNYW5hZ2VtZW50Q29tcG9uZW50c1xXb3Jrc1xXb3JrVGFicy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/_Imports.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-WorkLoadManagement/MyMudProvider.razor]
+[E:/University/GitHub/ERP-System-FoE/ERP-WorkLoadManagement/MyMudProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRQcm92aWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-8o4nramiid

@@ -54,7 +54,7 @@
     {
         try
         {
-            _graduate = await Http.GetFromJsonAsync<UpdateGraduateRequest>($"https://localhost:7010/api/Graduates/{graduateId}");
+            _graduate = await Http.GetFromJsonAsync<UpdateGraduateRequest>($"https://localhost:7111/ApiGateWay/Graduate-api/Graduates/{graduateId}");
         }
         catch (Exception ex)
         {
@@ -71,7 +71,7 @@
     {
         var jsonModel = JsonSerializer.Serialize(_graduate);
         var content = new StringContent(jsonModel, Encoding.UTF8, "application/json");
-        var response = await Http.PutAsync($"https://localhost:7010/api/Graduates/{graduateId}",content);
+        var response = await Http.PutAsync($"https://localhost:7111/ApiGateWay/Graduate-api/Graduates/{graduateId}", content);
 
         if (response.IsSuccessStatusCode)
         {

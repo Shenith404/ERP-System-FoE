@@ -13,199 +13,199 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MudBlazorUI
 build_property.RootNamespace = MudBlazorUI
-build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\
+build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\MudBlazorUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI
+build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\MudBlazorUI
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/App.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/AdminLayout.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxBZG1pbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/AdminNavBar.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/AdminNavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxBZG1pbk5hdkJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Overview.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Overview.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxPdmVydmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Profile.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Task.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/Task.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxUYXNrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/UserManagement.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/AdminDashboard/UserManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBZG1pbkRhc2hib2FyZFxVc2VyTWFuYWdlbWVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Components/Shared/PortalLoginCard.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Components/Shared/PortalLoginCard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcUG9ydGFsTG9naW5DYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/Footer.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/HeaderImage.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/HeaderImage.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckltYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/HeaderImageLayout.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/HeaderImageLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhlYWRlckltYWdlTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/MainLayout.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/MyMudProviders.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/MyMudProviders.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE15TXVkUHJvdmlkZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/NavMenu.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/NoNavLayout.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/NoNavLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5vTmF2TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Layout/TopNvBar.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Layout/TopNvBar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRvcE52QmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/AccountRestrictedPage.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/AccountRestrictedPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFJlc3RyaWN0ZWRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ChangePasswordDialog.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ChangePasswordDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxDaGFuZ2VQYXNzd29yZERpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/DatabaseSetting.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/DatabaseSetting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxEYXRhYmFzZVNldHRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/EmailConfrimSuccess.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/EmailConfrimSuccess.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxFbWFpbENvbmZyaW1TdWNjZXNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ForgotPasswordPage.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ForgotPasswordPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxGb3Jnb3RQYXNzd29yZFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ImageUploadDIalog.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ImageUploadDIalog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxJbWFnZVVwbG9hZERJYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/NotConfirmEmail.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/NotConfirmEmail.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxOb3RDb25maXJtRW1haWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ProfileView.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ProfileView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxQcm9maWxlVmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ResetPasswdord-test.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ResetPasswdord-test.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxSZXNldFBhc3N3ZG9yZC10ZXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ResetPassword.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/ResetPassword.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxSZXNldFBhc3N3b3JkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/TFAEnableDIalog.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/TFAEnableDIalog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxURkFFbmFibGVESWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/UserLogin.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/UserLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxVc2VyTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/Verify2Fa.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/Verify2Fa.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxWZXJpZnkyRmEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/VerifyPhoneNumberPage.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Account/VerifyPhoneNumberPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWNjb3VudFxWZXJpZnlQaG9uZU51bWJlclBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/HomePage.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/HomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/CreateUser.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlIFVzZXJzXENyZWF0ZVVzZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/EditUser.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/EditUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlIFVzZXJzXEVkaXRVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/UserPrevilages.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/UserPrevilages.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlIFVzZXJzXFVzZXJQcmV2aWxhZ2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/ViewUserList.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/Manage Users/ViewUserList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlIFVzZXJzXFZpZXdVc2VyTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/NotificationsList.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/NotificationsList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTm90aWZpY2F0aW9uc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/NotificationsView.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/NotificationsView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTm90aWZpY2F0aW9uc1ZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/RedirectToLogin.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/ServerError.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/ServerError.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2VydmVyRXJyb3IucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Admin/User Informations/LoginDetailsInfo.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Admin/User Informations/LoginDetailsInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlciBJbmZvcm1hdGlvbnNcTG9naW5EZXRhaWxzSW5mby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/Graduates/GraduateHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/Graduates/GraduateHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxHcmFkdWF0ZXNcR3JhZHVhdGVIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabEquipmentHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabEquipmentHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxMYWJNYW5hZ2VtZW50XExhYkVxdWlwbWVudEhvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabScheduleHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabScheduleHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxMYWJNYW5hZ2VtZW50XExhYlNjaGVkdWxlSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/AssignWorkHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/AssignWorkHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxBc3NpZ25Xb3JrSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/StaffHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/StaffHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxTdGFmZkhvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/WorkLoadHome.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/WorkLoadHome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxXb3JrTG9hZEhvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/MudBlazorUI/_Imports.razor]
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
