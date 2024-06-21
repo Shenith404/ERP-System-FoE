@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MudBlazorUI.styles.css",
+      "PackagePath": "staticwebassets\\MudBlazorUI.styles.css"
+    },
+    {
       "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\1.png",
       "PackagePath": "staticwebassets\\Assets\\1.png"
     },

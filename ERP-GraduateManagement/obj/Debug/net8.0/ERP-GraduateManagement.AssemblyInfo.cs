@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-GraduateManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa1d42be7df2c54bf0f6504f7536e08b1051e413")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53dd5c8ecc8bd6b4eb2373e62026a2040575920e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-GraduateManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-GraduateManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

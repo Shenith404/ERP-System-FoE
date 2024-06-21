@@ -182,6 +182,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlciBJbmZvcm1hdGlvbnNcTG9naW5EZXRhaWxzSW5mby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/Graduates/GraduateHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxHcmFkdWF0ZXNcR3JhZHVhdGVIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabEquipmentHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxMYWJNYW5hZ2VtZW50XExhYkVxdWlwbWVudEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/LabManagement/LabScheduleHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxMYWJNYW5hZ2VtZW50XExhYlNjaGVkdWxlSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/AssignWorkHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxBc3NpZ25Xb3JrSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/StaffHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxTdGFmZkhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/University/GitHub/ERP-System-FoE/MudBlazorUI/Pages/Department/WorkLoad/WorkLoadHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFxXb3JrTG9hZFxXb3JrTG9hZEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/University/GitHub/ERP-System-FoE/MudBlazorUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

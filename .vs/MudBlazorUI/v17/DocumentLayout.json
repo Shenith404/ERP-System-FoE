@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "E:\\University\\GitHub\\ERP-System-FoE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\admin service\\auth service\\const\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\admin service\\auth service\\const\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,65 +39,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\NavMenu.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "MudBlazorUI\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Title": "GraduateProfileDialog.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
+              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
+              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T06:35:39.005Z",
+              "WhenOpened": "2024-06-21T10:42:33.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MainLayout.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "MudBlazorUI\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAYAAAA",
+              "Title": "GraduatesList.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
+              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
+              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAEIAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T06:34:47.375Z",
+              "WhenOpened": "2024-06-21T10:41:20.333Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Program.cs",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Program.cs",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Program.cs",
-              "RelativeToolTip": "MudBlazorUI\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:56:02.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\App.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\App.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\App.razor",
-              "RelativeToolTip": "MudBlazorUI\\App.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T16:31:41.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
-              "RelativeToolTip": "MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:27:26.365Z"
             }
           ]
         },

@@ -18,12 +18,16 @@
        
         <AuthorizeView>
             <Authorized>
-                <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
-                               Color="Color.Inherit"
-                               Edge="Edge.Start"
-                               OnClick="@DrawerToggle" />
+        <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
+        Color="Color.Inherit"
+        Edge="Edge.Start"
+        OnClick="@DrawerToggle" />
             </Authorized>
         </AuthorizeView>
+       @*  <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
+                       Color="Color.Inherit"
+                       Edge="Edge.Start"
+                       OnClick="@DrawerToggle" /> *@
 
         <MudText Typo="Typo.h5" Class="px-4">Faculty of Engineering</MudText>
 
@@ -64,11 +68,16 @@
       
     <AuthorizeView>
         <Authorized>
-            <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
-                <NavMenu />
-            </MudDrawer>
+
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+    <NavMenu />
+    </MudDrawer>
         </Authorized>
     </AuthorizeView>
+@* 
+    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <NavMenu />
+    </MudDrawer> *@
 
       @Body
    
@@ -78,7 +87,7 @@
 
 <Footer/>
 @code {
-    private bool _drawerOpen = true;
+    private bool _drawerOpen = false;
     private bool themeOn;
 
 
