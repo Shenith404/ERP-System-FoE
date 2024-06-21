@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-LabEquipmentManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c4d7d9cf74b654a3eff847d7de8457145e4165d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53dd5c8ecc8bd6b4eb2373e62026a2040575920e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-LabEquipmentManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-LabEquipmentManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

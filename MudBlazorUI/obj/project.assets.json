@@ -927,13 +927,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.1": {
+      "Microsoft.NET.ILLink.Tasks/8.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -3552,13 +3552,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.1": {
+      "Microsoft.NET.ILLink.Tasks/8.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.3": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -6624,10 +6624,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.1": {
-      "sha512": "ADdJXuKNjwZDfBmybMnpvwd5CK3gp92WkWqqeQhW4W+q4MO3Qaa9QyW2DcFLAvCDMcCWxT5hRXqGdv13oon7nA==",
+    "Microsoft.NET.ILLink.Tasks/8.0.2": {
+      "sha512": "hKTrehpfVzOhAz0mreaTAZgbz0DrMEbWq4n3hAo8Ks6WdxdqQhNPvzOqn9VygKuWf1bmxPdraqzTaXriO/sn0A==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.1",
+      "path": "microsoft.net.illink.tasks/8.0.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -6641,7 +6641,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -6675,10 +6675,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
-      "sha512": "WE5sCiA6FbpmHBA7SeIApjBhBFfHQlWTqn5N5jCTncpSHFchjsc6hyXhPjS0PqIV8eiWayNmJpN+VmV1nHFVAw==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.3": {
+      "sha512": "n4TvjyvxuumcFKarFlUworNlgpelbE/RgUgh0A2v9hHd9uYbIhVm3DXFrs1C8J+q4iLQ1vj2RNBkOl5pBK7zFw==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/8.0.1",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -6706,7 +6706,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "microsoft.net.sdk.webassembly.pack.8.0.1.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.3.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -9726,6 +9726,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10905,8 +10906,8 @@
       "Microsoft.AspNetCore.WebUtilities >= 8.0.6",
       "Microsoft.Extensions.Http >= 8.0.0",
       "Microsoft.IdentityModel.JsonWebTokens >= 7.5.1",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.1",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.1",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.2",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.3",
       "MudBlazor >= 6.19.1",
       "Newtonsoft.Json >= 13.0.3",
       "Syncfusion.Blazor.Navigations >= 25.1.40",
@@ -10914,24 +10915,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\riyaj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SHENITH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
+      "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
       "projectName": "MudBlazorUI",
-      "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
-      "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
-      "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\obj\\",
+      "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
+      "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
+      "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10946,17 +10942,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
-              "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj"
+            "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
+              "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj"
             },
-            "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
-              "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj"
+            "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
+              "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj"
             },
-            "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
-              "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj"
+            "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
+              "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj"
             },
-            "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
-              "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj"
+            "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
+              "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj"
             }
           }
         }
@@ -10965,6 +10961,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11019,13 +11020,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.2, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.3, )",
             "autoReferenced": true
           },
           "MudBlazor": {
@@ -11059,7 +11060,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.1, 8.0.1]"
+            "version": "[8.0.3, 8.0.3]"
           }
         ],
         "frameworkReferences": {
@@ -11067,7 +11068,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
