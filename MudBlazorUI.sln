@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MudBlazorUI", "MudBlazorUI\MudBlazorUI.csproj", "{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminPanel", "AdminPanel\AdminPanel.csproj", "{46804615-5A11-4B5D-AA6C-AD81C82FF683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminPanel", "AdminPanel\AdminPanel.csproj", "{46804615-5A11-4B5D-AA6C-AD81C82FF683}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

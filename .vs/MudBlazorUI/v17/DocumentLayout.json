@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\University\\GitHub\\ERP-System-FoE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,31 +51,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MainLayout.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "MudBlazorUI\\Layout\\MainLayout.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAArAAAA",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T15:59:37.199Z",
+              "WhenOpened": "2024-06-21T06:35:39.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MudBlazorUI\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T06:34:47.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Program.cs",
               "RelativeDocumentMoniker": "MudBlazorUI\\Program.cs",
               "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Program.cs",
               "RelativeToolTip": "MudBlazorUI\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAA6AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T15:56:02.011Z"
+              "WhenOpened": "2024-06-19T15:56:02.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.razor",
               "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\App.razor",
               "RelativeDocumentMoniker": "MudBlazorUI\\App.razor",
@@ -83,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
               "RelativeDocumentMoniker": "MudBlazorUI\\Admin Service\\Auth Service\\Const\\UserProfile.cs",
