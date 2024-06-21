@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP-LabScheduleManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53dd5c8ecc8bd6b4eb2373e62026a2040575920e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a41c78e2976bdee41c278a838d796a9a0747dc07")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP-LabScheduleManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP-LabScheduleManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

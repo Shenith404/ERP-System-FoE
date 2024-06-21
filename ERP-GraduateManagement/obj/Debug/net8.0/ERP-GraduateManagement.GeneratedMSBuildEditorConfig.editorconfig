@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = ERP_GraduateManagement
 build_property.RootNamespace = ERP_GraduateManagement
-build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement\
+build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-GraduateManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\ERP-GraduateManagement
+build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-GraduateManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/EditGraduateDialog.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/EditGraduateDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEVkaXRHcmFkdWF0ZURpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateAdd.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateAdd.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlQWRkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateFilterPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateFilterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlRmlsdGVyUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateOverview.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateOverview.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlT3ZlcnZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateProfileDialog.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateProfileDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlUHJvZmlsZURpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduatesList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduatesList.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateTabs.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/GraduateComponents/GraduateTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = R3JhZHVhdGVDb21wb25lbnRzXEdyYWR1YXRlVGFicy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/MyMudThemeProvider.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/MyMudThemeProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRUaGVtZVByb3ZpZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/_Imports.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/Component1.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/Component1.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50MS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-pfahlx0v28
 
-[E:/University/GitHub/ERP-System-FoE/ERP-GraduateManagement/MyMudProvider.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-GraduateManagement/MyMudProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRQcm92aWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-nugur446bj

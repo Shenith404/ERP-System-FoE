@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {}
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {}
   },
   "projects": {
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
         "projectName": "ERP-GraduateManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

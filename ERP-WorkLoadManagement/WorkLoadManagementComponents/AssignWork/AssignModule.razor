@@ -101,7 +101,7 @@
              
                 var jsonmodel = JsonSerializer.Serialize(model);
                 var content = new StringContent(jsonmodel, Encoding.UTF8, "application/json");
-                var response = await Http.PostAsync("https://localhost:7055/api/AssignWork/", content);
+                var response = await Http.PostAsync("https://localhost:7111/ApiGateWay/WorkLoad-api/AssignWork/Add", content);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -132,8 +132,8 @@
     {
         try
         {
-            workList = await Http.GetFromJsonAsync<List<GetWorkResponse>>("https://localhost:7055/api/Work/");
-            staffList = await Http.GetFromJsonAsync<List<GetStaffResponse>>("https://localhost:7055/api/Staff");
+            workList = await Http.GetFromJsonAsync<List<GetWorkResponse>>("https://localhost:7111/ApiGateWay/WorkLoad-api/Work/Get");
+            staffList = await Http.GetFromJsonAsync<List<GetStaffResponse>>("https://localhost:7111/ApiGateWay/WorkLoad-api/Staff/Get");
         }
         catch (Exception ex)
         {
