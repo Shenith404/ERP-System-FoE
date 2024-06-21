@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MudBlazorUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a41c78e2976bdee41c278a838d796a9a0747dc07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4094a91988613d93efe6da1bebe7ca96fde8843")]
 [assembly: System.Reflection.AssemblyProductAttribute("MudBlazorUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MudBlazorUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
