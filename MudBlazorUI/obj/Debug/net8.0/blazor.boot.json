@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MudBlazorUI",
   "resources": {
-    "hash": "sha256-rKB1153xyzFtTsO3kO8ofB6ZyEpyZByCJLn9diT4ICo=",
+    "hash": "sha256-92Czybz+eNg6jYA2Xl0KFLjMDZlB/lLGqmXWZDsLsvQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.23kn6umpq5.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -246,10 +246,10 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "MudBlazorUI.wasm": "sha256-4OBa0Xu5WpotrQsdGVX2KA3JO24HB/7Qor6lldHLGfI="
+      "MudBlazorUI.wasm": "sha256-NY6JGJmmObV5zCRvZThxVCC50C0IDc1S8GhmO/c1f/M="
     },
     "pdb": {
-      "MudBlazorUI.pdb": "sha256-Ecn53gviWkYb6s/zibTIJFQif4Ag+ij8bXJS9odrb2c="
+      "MudBlazorUI.pdb": "sha256-hP+cpSWAuKmhQbzbcFOajx9GqGEKOOzwfY/oD1WcsbM="
     }
   },
   "cacheBootResources": true,

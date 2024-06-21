@@ -40,16 +40,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Pages\Account\EmailConfrimSuccess.razor">
+    <Content Update="Pages\Admin\Account\EmailConfrimSuccess.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
-    <Content Update="Pages\Account\ProfileView.razor">
+    <Content Update="Pages\Admin\Account\ProfileView.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
-    <Content Update="Pages\Manage Users\EditUser.razor">
+    <Content Update="Pages\Admin\Manage Users\EditUser.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
-    <Content Update="Pages\ServerError.razor">
+    <Content Update="Pages\Admin\ServerError.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
   </ItemGroup>
