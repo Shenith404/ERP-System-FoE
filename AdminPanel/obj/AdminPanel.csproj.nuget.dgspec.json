@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\AdminPanel.csproj": {}
+    "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\AdminPanel.csproj": {}
   },
   "projects": {
-    "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\AdminPanel.csproj": {
+    "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\AdminPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\AdminPanel.csproj",
+        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\AdminPanel.csproj",
         "projectName": "AdminPanel",
-        "projectPath": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\AdminPanel.csproj",
+        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\AdminPanel.csproj",
         "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\obj\\",
+        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",

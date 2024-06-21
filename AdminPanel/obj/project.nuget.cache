@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XMWLPJUTd58=",
+  "dgSpecHash": "km+EB6636Ow=",
   "success": true,
-  "projectFilePath": "E:\\University\\GitHub\\BlazorUI-With-MudBlazor-.NET\\AdminPanel\\AdminPanel.csproj",
+  "projectFilePath": "E:\\University\\GitHub\\ERP-System-FoE\\AdminPanel\\AdminPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SHENITH\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",
     "C:\\Users\\SHENITH\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.3\\microsoft.aspnetcore.components.8.0.3.nupkg.sha512",
