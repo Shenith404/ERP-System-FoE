@@ -13,47 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = AdminPanel
 build_property.RootNamespace = AdminPanel
-build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\AdminPanel\
+build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\AdminPanel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\AdminPanel
+build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\AdminPanel
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/App.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Layout/MainLayout.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/Activities.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/Activities.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZpdGllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/Backup.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/Backup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFja3VwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/Dashboard.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/PopUpWindows/AddUserPopUP.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/PopUpWindows/AddUserPopUP.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9wVXBXaW5kb3dzXEFkZFVzZXJQb3BVUC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/ProfileSetting.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/ProfileSetting.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZVNldHRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/Pages/UserManagement.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/Pages/UserManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlck1hbmFnZW1lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/AdminPanel/_Imports.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/AdminPanel/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
