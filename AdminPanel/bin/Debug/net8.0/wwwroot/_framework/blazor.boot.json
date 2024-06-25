@@ -1,15 +1,15 @@
 {
   "mainAssemblyName": "AdminPanel",
   "resources": {
-    "hash": "sha256-hEoI2QdcvrufMNYQBys7ey34Iyszc1PqwS64J72oBWQ=",
+    "hash": "sha256-0YVQjrheeuOeCy63VqvB3xyhLpf8KV9cIDfvrBiNwyk=",
     "jsModuleNative": {
-      "dotnet.native.8.0.1.by2htdiu1n.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
+      "dotnet.native.8.0.3.23kn6umpq5.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.1.ly0589k5qi.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
+      "dotnet.runtime.8.0.3.y9ebgrbxxz.js": "sha256-eQgtmRxLcbxYmADDa49CHs/GuJ7nM6d/UFWo4EVhuIw="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-dqpunZywlYy86b4O6ZjONasmG+4FH0P17FZ0OIf/lIg="
+      "dotnet.native.wasm": "sha256-eVeGwMx+BfzNeU727VmCADSEBzGFWGkvJAX0XZdSVkQ="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -211,10 +211,10 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "AdminPanel.wasm": "sha256-+CiiQb/wXjxDvGpGo8Yy84UkTsXLNVeOtbkUdrvAHC4="
+      "AdminPanel.wasm": "sha256-oGhoArNH9b5gKrFPBj7shX4w+58v8KUBypeqPflg8iM="
     },
     "pdb": {
-      "AdminPanel.pdb": "sha256-HcNo9l/08tfkAmZtUi2MQ7fsFvg0+K8hX+ICAhO3kGo="
+      "AdminPanel.pdb": "sha256-CT1FG644MbWiRAC6Z8GFe7A8OU3oBIaVaT8NDqr5k/k="
     }
   },
   "cacheBootResources": true,

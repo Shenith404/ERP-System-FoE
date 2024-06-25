@@ -1,0 +1,19 @@
+﻿@page "/RequestManagementTabs/StaffRequestCreate/{senderId:guid}"
+@using ERP_EvaluationManagement.RequestManagementPages.Components
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+<CreateStaffRequestComponent onAdded="Activate_01" SenderId="senderId"></CreateStaffRequestComponent>
+
+@code
+{
+    [Parameter]
+    public Guid senderId { get; set; }
+
+    private async Task Activate_01()
+    {
+
+        NavigationManager.NavigateTo($"/RequestManagementTabs");
+        Snackbar.Add("Request Sent Successfully", Severity.Success);
+    }
+}

@@ -1,0 +1,51 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json;
+@inject NavigationManager NavigationManager
+
+<MudContainer Class="result-container">
+    <h1 class="result-header pb-3" style="color:purple; text-align:center">Batches</h1>
+    <MudTable Items="_batches" Dense="true" Hover="true" Bordered="true" Striped="false">
+        <HeaderContent>
+            <MudTh style="font-size: 20px;">Batch</MudTh>
+            <MudTh></MudTh>
+        </HeaderContent>
+        <RowTemplate Context="batch">
+            <MudTd>@batch.BatchName</MudTd>
+                <MudTd>
+                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(batch.BatchId)"><b><ul style="text-decoration: underline;">View Details</ul></b></MudButton>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+</MudContainer>
+
+    <style>
+        .result-container {
+            width: 130%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
+        }
+    </style>
+
+@code {
+
+    private HttpClient Http = new HttpClient();
+    private List<GetBatchResponse> _batches = new List<GetBatchResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModulesAsync();
+    }
+
+    private async Task LoadModulesAsync()
+    {
+        _batches = await Http.GetFromJsonAsync<List<GetBatchResponse>>($"https://localhost:7111/ApiGateWay/Request-api/Batch");
+    }
+
+    private void ViewModuleInformation(Guid batchId)
+    {
+        NavigationManager.NavigateTo($"/RequestManagementTabs/BatchRequest/{batchId}");
+    }
+}
+
+<link rel="stylesheet" href="styles.css" />

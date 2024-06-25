@@ -8,9 +8,9 @@
 
 @inject IAdminService adminService
 
-@attribute [Authorize]
+@attribute [Authorize(Roles = "Admin")]
 
-<div style="height:100%;margin:80px 40px 10px 40px;">
+<div style="height:100%;margin:0px 40px 10px 40px;">
     <MudTable Height="70vh" Elevation="1" ServerData="@(new Func<TableState, Task<TableData<UserLoginDeviceInfoResponse>>>(ServerReload))"
               Dense="true" Hover="true" @ref="table">
 

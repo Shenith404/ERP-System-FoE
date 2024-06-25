@@ -1,0 +1,81 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@inject NavigationManager NavigationManager
+
+@inject ISnackbar Snackbar
+
+
+@if (_batchStudents != null)
+{
+    <div class="pt-4">
+        <h1 class="result-header pb-3" style="color:purple; text-align:center">Batch Student List</h1>
+    </div>
+
+    <MudTable Items="@_batchStudents" Dense="true" Hover="true" Bordered="true" Striped="false">
+        <HeaderContent>
+            <MudTh>Registration Number</MudTh>
+            <MudTh>Full Name</MudTh>
+            <MudTh>Email</MudTh>
+            <MudTh>Academic Advisor Name</MudTh>
+            <MudTh>Batch Name</MudTh>
+            <MudTh>Make Request</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>@context.RegistrationNum</MudTd>
+                <MudTd>@context.FullName</MudTd>
+                <MudTd>@context.Email</MudTd>
+                <MudTd>@context.AcademicAdvisorName</MudTd>
+                <MudTd>@context.BatchName</MudTd>
+                <MudTd>
+                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="(() => ViewModuleInformation(context.StudentId))"><b><ul style="text-decoration: underline;">Requests</ul></b></MudButton>
+                    <a href="d:\erp-academic_portal\erp-blazorapp\erp-evaluationmanagement\requestmanagementpages\pages\viewbatchrequestpage.razor"></a>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+
+
+
+}
+else
+{
+    <p>Module offering information not found.</p>
+}
+
+
+@code {
+
+    [Parameter]
+    public Guid BatchId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private List<GetBatchStudentsResponse>? _batchStudents;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModuleOfferingInfoAsync(BatchId);
+    }
+
+    private async Task LoadModuleOfferingInfoAsync(Guid batchId)
+    {
+        try
+        {
+            _batchStudents = await Http.GetFromJsonAsync<List<GetBatchStudentsResponse>>($"https://localhost:7111/ApiGateWay/Request-api/Student/Get/{batchId}");
+            Console.WriteLine("HW");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading module offering: {ex.Message}");
+        }
+    }
+
+    private void ViewModuleInformation(Guid recieverId)
+    {
+        NavigationManager.NavigateTo($"/RequestManagementTabs/RequestCreate/{recieverId}");
+    }
+
+}
+

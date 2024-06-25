@@ -1,0 +1,6 @@
+@page "/MentoringManagementPage"
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+@using ERP_EvaluationManagement.MentoringManagementPages.Components
+
+<DisplayBatchList />
+

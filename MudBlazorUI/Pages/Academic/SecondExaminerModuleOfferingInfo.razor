@@ -1,0 +1,10 @@
+@page "/SecondExaminerModuleOfferingInfo/{ModuleOfferingId:guid}"
+@using ERP_EvaluationManagement.ModuleManagementPages.Pages
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+<SecondExaminerModuleOfferingInformation ModuleOfferingId="ModuleOfferingId"></SecondExaminerModuleOfferingInformation>
+
+@code
+{
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+}

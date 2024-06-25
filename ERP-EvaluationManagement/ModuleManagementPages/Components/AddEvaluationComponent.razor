@@ -1,0 +1,157 @@
+
+@using FluentValidation
+@using ERP_EvaluationManagement.DTOs.Requests
+@using Newtonsoft.Json
+@using System.Text
+@using Severity = MudBlazor.Severity
+@inject ISnackbar Snackbar
+
+
+
+<MudContainer Class="result-container">
+    <MudCard Class="mud-card">
+        <MudForm Model="@model" @ref="@form" Validation="@(evaluationValidator.ValidateValue)"
+                 ValidationDelay="0">
+            <MudCardContent Class="mud-card-content">
+                <h2 class="result-header pb-3" style="color:black; text-align:center">Add Assignment</h2>
+                <MudTextField @bind-Value="model.Name"
+                              For="@(() => model.Name)"
+                              Immediate="true"
+                              Label="Name" />
+
+
+                
+
+                <MudSelect T="int" Label="Type" @bind-Value="model.Type" Class="mb-3" AnchorOrigin="Origin.BottomCenter">
+                    <MudSelectItem Value="1">Inclass</MudSelectItem>
+                    <MudSelectItem Value="2">Quiz</MudSelectItem>
+                    <MudSelectItem Value="3">Assignment</MudSelectItem>
+                    <MudSelectItem Value="4">Take Home</MudSelectItem>
+                    <MudSelectItem Value="6">End Exam</MudSelectItem>
+                    <MudSelectItem Value="5">Other</MudSelectItem>
+                </MudSelect>
+
+                <MudNumericField @bind-Value="model.FinalMarks"
+                                 For="@(() => model.FinalMarks)"
+                                 Immediate="true"
+                                 Label="Final Marks" />
+
+                <MudNumericField @bind-Value="model.Marks"
+                                 For="@(() => model.Marks)"
+                                 Immediate="true"
+                                 Label="Marks" />
+
+                @* <MudGrid Class="cursor-default justify-center align-center">
+                    <MudItem>
+                        <MudSelect T="int" Label="Type" @bind-Value="model.Type" Class="mb-3" AnchorOrigin="Origin.BottomLeft" TransformOrigin="Origin.TopCenter">
+                            <MudSelectItem Value="1">Inclass</MudSelectItem>
+                            <MudSelectItem Value="2">Quiz</MudSelectItem>
+                            <MudSelectItem Value="3">Assignment</MudSelectItem>
+                            <MudSelectItem Value="4">Take Home</MudSelectItem>
+                            <MudSelectItem Value="6">End Exam</MudSelectItem>
+                            <MudSelectItem Value="5">Other</MudSelectItem>
+                        </MudSelect>
+                    </MudItem>
+                </MudGrid> *@
+            </MudCardContent>
+            <MudCardActions Class="mud-card-actions">
+                <MudButton Variant="Variant.Filled"
+                           Color="Color.Primary" StartIcon="@Icons.Material.Filled.Add"
+                           Class="mud-button-add"
+                           OnClick="@(async () => await Submit())">Add</MudButton>
+            </MudCardActions>
+        </MudForm>
+    </MudCard>
+</MudContainer>
+@code {
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+    [Parameter]
+    public EventCallback onAdded { get; set; }
+
+    private CreateEvaluationRequest model = new CreateEvaluationRequest();
+    
+    private HttpClient Http = new HttpClient();
+
+    EvaluationModelValidator evaluationValidator = new EvaluationModelValidator();
+    MudForm form;
+
+    public class EvaluationModelValidator : AbstractValidator<CreateEvaluationRequest>
+    {
+        public EvaluationModelValidator()
+        {
+            RuleFor(x => x.Name)
+                .NotEmpty()
+                .Length(1, 100);
+
+            RuleFor(x => x.Type)
+                .InclusiveBetween(1, 6);
+
+            RuleFor(x => x.FinalMarks)
+                .InclusiveBetween(0, 100);
+
+            RuleFor(x => x.Marks)
+                .InclusiveBetween(0, 100); 
+        }
+
+        public Func<object, string, Task<IEnumerable<string>>> ValidateValue => async (model, propertyName) =>
+        {
+            var result = await ValidateAsync(ValidationContext<CreateEvaluationRequest>
+                                .CreateWithOptions((CreateEvaluationRequest)model, x => x.IncludeProperties(propertyName)));
+            if (result.IsValid)
+                return Array.Empty<string>();
+            return result.Errors.Select(e => e.ErrorMessage);
+        };
+    }
+
+    private async Task Submit()
+{
+
+    await form.Validate();
+
+    if (form.IsValid)
+    {
+        try
+        {
+            // Prepare the evaluation data to be sent to the API
+            var evaluationData = new
+            {
+                Name = model.Name,
+                Type = model.Type,
+                FinalMarks = model.FinalMarks,
+                Marks = model.Marks
+            };
+
+            // Convert the evaluation data to JSON
+            var evaluationJson = JsonConvert.SerializeObject(evaluationData);
+
+            // Set up the request message
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Post,
+                        RequestUri = new Uri($"https://localhost:7111/ApiGateWay/Evaluation-api/Evaluation/{ModuleOfferingId}"),
+                Content = new StringContent(evaluationJson, Encoding.UTF8, "application/json")
+            };
+
+            // Send the request and await the response
+            var response = await Http.SendAsync(request);
+            
+            if (response.IsSuccessStatusCode)
+            {
+                await onAdded.InvokeAsync();
+            }
+            else
+            {
+                Console.WriteLine($"Failed to create evaluation. Status code: {response.StatusCode}");
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+}
+
+
+}

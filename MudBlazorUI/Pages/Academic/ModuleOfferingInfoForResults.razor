@@ -1,0 +1,11 @@
+﻿@page "/ResultManagementTabs/{ModuleOfferingId:guid}"
+@using ERP_EvaluationManagement.ResultManagementPages.Pages
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+
+<ModuleOfferingInformationForResults ModuleOfferingId="ModuleOfferingId"></ModuleOfferingInformationForResults>
+
+@code
+{
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+}

@@ -1,0 +1,12 @@
+﻿@page "/MentoringManagementPage/{BatchId:guid}"
+@using ERP_EvaluationManagement.MentoringManagementPages.Pages
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+<DisplayAcademicAdvicees BatchId="BatchId"></DisplayAcademicAdvicees>
+
+
+@code
+{
+    [Parameter]
+    public Guid BatchId { get; set; }
+
+}

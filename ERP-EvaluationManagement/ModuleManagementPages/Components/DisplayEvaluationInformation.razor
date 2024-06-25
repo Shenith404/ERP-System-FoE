@@ -1,0 +1,163 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+
+
+<h1 class="result-header pb-3" style="color:black; text-align:center">Evaluation Information</h1>
+
+
+<div style="display: flex; gap: 16px; border: 2px solid blue; padding: 16px;">
+    <MudPaper Class="pl-6 pt-5 pb-5 pr-5" Elevation="4" Style="@($"background:{Colors.LightBlue.Lighten5}; width: 30%; height: auto;")">
+        <img src="https://cdn-icons-png.flaticon.com/256/9821/9821106.png" alt="Placeholder Image" style=" width: 300px; height: 300px;" />
+    </MudPaper>
+
+    <MudPaper Class="pl-5 pt-5" Elevation="4" Style="@($"background:{Colors.LightBlue.Lighten5}; width: 70%;")">
+        <!-- Second MudPaper content goes here -->
+
+        <MudList Dense>
+                <MudListItem>
+                    <MudListItemIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" />
+                    <MudListItemText>
+                     <MudText Typo="Typo.h6" Class="header-text">
+                        <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                        Module : @module.ModuleName
+                     </MudText>
+                    </MudListItemText>
+                </MudListItem>
+                
+                <MudListItem>
+                    <MudListItemIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Secondary" />
+                    <MudListItemText>
+                        <MudText Typo="Typo.h6" Class="header-text">
+                        <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                            Module Code : @module.ModuleCode
+                        </MudText>
+                    </MudListItemText>
+                </MudListItem>
+                
+                <MudListItem>
+                    <MudText Typo="Typo.h6" Class="header-text">
+                    <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                        Evaluation Name : @evaluation.EvaluationName
+                    </MudText>
+                </MudListItem>
+
+            <MudListItem>
+                <MudText Typo="Typo.h6" Class="header-text">
+                    <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                    Evaluation Type : @evaluationType
+                </MudText>
+            </MudListItem>
+
+            <MudListItem>
+                <MudText Typo="Typo.h6" Class="header-text">
+                    <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                    Marks : @evaluation.EvaluationMarks
+                </MudText>
+            </MudListItem>
+
+            <MudListItem>
+                <MudText Typo="Typo.h6" Class="header-text">
+                    <MudIcon Icon="@Icons.Material.Outlined.Circle" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px; font-size: 16px;" />
+                    Final Marks : @evaluation.EvaluationFinalMarks
+                </MudText>
+            </MudListItem>
+                
+        </MudList>
+    </MudPaper>
+</div>
+
+
+
+
+
+
+
+
+
+@* <MudPaper Class="pl-5 pt-5" Elevation="4" Style="@($"background:{Colors.LightBlue.Lighten5};")">
+    <MudList>
+        <h2 style="font-weight:bolder">
+            Module
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @module.ModuleName
+        </MudListItem>
+        <h2 style="font-weight:bolder">
+            Module Code
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @module.ModuleCode
+        </MudListItem>
+        <h2 style="font-weight:bolder">
+            Evaluation Name
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @evaluation.EvaluationName
+        </MudListItem>
+        <h2 style="font-weight:bolder">
+            Evaluation Type
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @evaluationType
+        </MudListItem>
+        <h2 style="font-weight:bolder">
+            Marks
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @evaluation.EvaluationMarks
+        </MudListItem>
+        <h2 style="font-weight:bolder">
+            Final Marks
+        </h2>
+        <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+            @evaluation.EvaluationFinalMarks
+        </MudListItem>
+    </MudList>
+</MudPaper> *@
+
+
+<style>
+    .custom-icon-size {
+        font-size: 48px;
+    }
+</style>
+
+@code {
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+    [Parameter]
+    public Guid EvaluationId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private GetEvaluationDetailsResponse evaluation = new();
+    private GetModuleOfferingDetailsResponse module = new();
+    private string evaluationType;
+
+    protected override async Task OnInitializedAsync()
+    {
+        evaluation = await Http.GetFromJsonAsync<GetEvaluationDetailsResponse>($"https://localhost:7111/ApiGateWay/Evaluation-api/Evaluation/{EvaluationId}/evaluation");
+        module = await Http.GetFromJsonAsync<GetModuleOfferingDetailsResponse>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleOffering/{ModuleOfferingId}");
+        evaluationType = GetEvaluationType(evaluation.EvaluationType);
+    }
+
+    public string GetEvaluationType(int type)
+    {
+        switch (type)
+        {
+            case 1:
+                return "Inclass";
+            case 2:
+                return "Quiz";
+            case 3:
+                return "Assignment";
+            case 4:
+                return "TakeHome";
+            case 5:
+                return "Other";
+            default:
+                return "Unknown";
+        }
+    }
+}
+

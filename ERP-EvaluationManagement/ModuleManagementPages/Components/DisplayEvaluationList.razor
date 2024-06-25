@@ -1,0 +1,135 @@
+@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@using ERP.EvaluationManagement.Core.DTOs.Requests
+@using MudBlazor
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+@inject IDialogService Dialog
+
+
+
+<style>
+    .my-custom-class {
+        backdrop-filter: blur(10px);
+    }
+</style>
+
+
+@if (_evaluations != null && _evaluations.Any())
+{
+    <MudContainer>
+        <MudTable Items="@_evaluations" Dense="true" Hover="true" Bordered="true" Striped="false">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Type</MudTh>
+                <MudTh>Out of Final Marks</MudTh>
+                <MudTh>Total Marks Given</MudTh>
+                <MudTh Width="10%">Actions</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">
+                    <MudButton OnClick="@(() => ViewEvaluationInformation(ModuleOfferingId, @context.EvaluationId))"><b><ul style="text-decoration: underline;">@context.EvaluationName</ul></b></MudButton>
+                </MudTd>
+                @* <MudTd DataLabel="Name">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => ViewEvaluationInformation(ModuleOfferingId, @context.EvaluationId))"> @context.EvaluationName</MudButton>
+                </MudTd> *@
+                <MudTd DataLabel="Type">@GetTypeAsString(context.EvaluationType)</MudTd>
+                <MudTd DataLabel="Out of Final Marks">@context.EvaluationFinalMarks</MudTd>
+                <MudTd DataLabel="Total Marks Given">@context.EvaluationMarks</MudTd>
+                <MudTd>
+                    <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Edit" Color="Color.Primary" OnClick="@( () => EditEvaluation(@context) )" />
+                    <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Delete" Color="Color.Error" OnClick="@( () => DeleteEvaluation(context.EvaluationId) )" />
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </MudContainer>
+}
+else
+{
+    <p>No Evaluations to Display</p>
+}
+
+@code {
+
+    DialogOptions topCenter = new DialogOptions() { Position = DialogPosition.TopCenter };
+
+    [Parameter] public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+    private List<GetEvaluationDetailsResponse> _evaluations = new List<GetEvaluationDetailsResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEvaluationsAsync();
+    }
+
+    private async Task LoadEvaluationsAsync()
+    {
+        try
+        {
+            _evaluations = await Http.GetFromJsonAsync<List<GetEvaluationDetailsResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/Evaluation/{ModuleOfferingId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading evaluations: {ex.Message}");
+        }
+    }
+
+    async Task DeleteEvaluation(Guid evaluationId)
+    {
+        var parameters = new DialogParameters { ["EvaluationId"] = evaluationId };
+        var dialog = await DialogService.ShowAsync<ConfirmEvaluationDeleteDialog>("Confirm Delete", parameters);
+        var result = await dialog.Result;
+        await LoadEvaluationsAsync();
+
+    }
+
+    private void ViewEvaluationInformation(Guid moduleOfferingId, Guid evaluationId)
+    {
+        NavigationManager.NavigateTo($"/ModuleManagementTabs/{moduleOfferingId}/{evaluationId}");
+    }
+
+
+    private async Task EditEvaluation(GetEvaluationDetailsResponse evaluation)
+    {
+        var updateEvaluationRequest = new UpdateEvaluationRequest
+        {
+            EvaluationId = evaluation.EvaluationId,
+            Name = evaluation.EvaluationName,
+            Type = evaluation.EvaluationType,
+            FinalMarks = evaluation.EvaluationFinalMarks,
+            Marks = evaluation.EvaluationMarks
+        };
+
+        var parameters = new DialogParameters { ["model"] = updateEvaluationRequest };
+        var options = new DialogOptions { ClassBackground = "my-custom-class" };
+        var dialog = await DialogService.ShowAsync<EditEvaluationdialog>("Edit Evaluation", parameters, options);
+        var result = await dialog.Result;
+        await LoadEvaluationsAsync();
+    }
+    
+    private string GetTypeAsString(int type)
+    {
+        switch (type)
+        {
+            case 1:
+                return "Inclass";
+            case 2:
+                return "Quiz";
+            case 3:
+                return "Assignment";
+            case 4:
+                return "Take Home";
+            case 5:
+                return "Other";
+            default:
+                return "Unknown";
+        }
+    }
+
+}
+  

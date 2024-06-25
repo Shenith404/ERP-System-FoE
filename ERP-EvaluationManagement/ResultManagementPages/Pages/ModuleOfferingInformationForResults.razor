@@ -1,0 +1,48 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+
+@inject ISnackbar Snackbar
+
+@if (_moduleOffering != null)
+{
+    <div class="pt-4">
+        <h1 class="result-header pb-3" style="color:purple; text-align:center;">@_moduleOffering.ModuleCode @_moduleOffering.ModuleName</h1>
+    </div>
+    <DisplayEvaluationListForResults ModuleOfferingId="ModuleOfferingId"></DisplayEvaluationListForResults>
+
+
+}
+else
+{
+    <p>Module offering information not found.</p>
+}
+
+
+
+@code {
+
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private GetModuleOfferingDetailsResponse? _moduleOffering;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModuleOfferingInfoAsync();
+    }
+
+    private async Task LoadModuleOfferingInfoAsync()
+    {
+        try
+        {
+            _moduleOffering = await Http.GetFromJsonAsync<GetModuleOfferingDetailsResponse>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleOffering/{ModuleOfferingId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading module offering: {ex.Message}");
+        }
+    }
+
+}

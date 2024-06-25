@@ -12,16 +12,15 @@
 
         <AuthorizeView Roles="Admin">
             <Authorized >
-                <MudNavGroup Title="Admin" Icon="@Icons.Material.Filled.AdminPanelSettings" >
-                    <MudNavGroup Title="User Management" Icon="@Icons.Material.Filled.ManageAccounts" >
-                        <MudNavLink Href="/users-list" Icon="@Icons.Material.Filled.List">All Users</MudNavLink>
-                        <MudNavLink Href="/Create-user" Icon="@Icons.Material.Filled.Create">Create User</MudNavLink>
+                <MudNavGroup Title="Admin" Icon="@Icons.Material.Filled.AdminPanelSettings" IconColor="Color.Primary">
+                    <MudNavGroup Title="User Management" Icon="@Icons.Material.Filled.ManageAccounts" IconColor="Color.Primary">
+                        <MudNavLink Href="/users-list" Icon="@Icons.Material.Filled.List" IconColor="Color.Primary">All Users</MudNavLink>
+                        <MudNavLink Href="/Create-user" Icon="@Icons.Material.Filled.Create" IconColor="Color.Primary">Create User</MudNavLink>
                     </MudNavGroup>
 
-                    <MudNavGroup Title="Backup Database" Icon="@Icons.Material.Filled.SupervisorAccount" >
 
-                    </MudNavGroup>
-                    <MudNavLink Href="/login-details" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Info">User Login Infos</MudNavLink>
+      
+                    <MudNavLink Href="/login-details" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Info" IconColor="Color.Primary">User Login Infos</MudNavLink>
 
                 </MudNavGroup>
             </Authorized>
@@ -31,22 +30,39 @@
 
         <AuthorizeView Roles="Admin,Staff,Lecture">
             <Authorized >
-                <MudNavGroup Title="Department" Icon="@Icons.Material.Filled.PeopleOutline" >
-                    <MudNavLink Href="/department/graduates" Icon="@Icons.Material.Filled.Man" IconColor="Color.Inherit">Graduates</MudNavLink>
-                    <MudNavGroup Title="Laboratory" Icon="@Icons.Material.Filled.Science" >
-                        <MudNavLink Href="/department/labEquipments" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Inherit">Lab Equipments</MudNavLink>
-                        <MudNavLink Href="/department/labSchedules" Icon="@Icons.Material.Filled.Schedule" IconColor="Color.Inherit">Laboratory Schedules</MudNavLink>
+                <MudNavGroup Title="Department" Icon="@Icons.Material.Filled.PeopleOutline" IconColor="Color.Primary">
+                    <MudNavLink Href="/department/graduates" Icon="@Icons.Material.Filled.Man" IconColor="Color.Primary">Graduates</MudNavLink>
+                    <MudNavGroup Title="Laboratory" Icon="@Icons.Material.Filled.Science" IconColor="Color.Primary">
+                        <MudNavLink Href="/department/labEquipments" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Primary">Lab Equipments</MudNavLink>
+                        <MudNavLink Href="/department/labSchedules" Icon="@Icons.Material.Filled.Schedule" IconColor="Color.Primary">Laboratory Schedules</MudNavLink>
                     </MudNavGroup>
-                    <MudNavGroup Title="Work Load" Icon="@Icons.Material.Filled.Work" >
-                        <MudNavLink Href="/department/workloads" Icon="@Icons.Material.Filled.WorkOutline" IconColor="Color.Inherit">Works</MudNavLink>
-                        <MudNavLink Href="/department/staff" Icon="@Icons.Material.Filled.Groups2" IconColor="Color.Inherit">Staff</MudNavLink>
-                        <MudNavLink Href="/department/assignwork" Icon="@Icons.Material.Filled.AssignmentInd" IconColor="Color.Inherit">Assign Work</MudNavLink>
+                    <MudNavGroup Title="Work Load" Icon="@Icons.Material.Filled.Work" IconColor="Color.Primary">
+                        <MudNavLink Href="/department/workloads" Icon="@Icons.Material.Filled.WorkOutline" IconColor="Color.Primary">Works</MudNavLink>
+                        <MudNavLink Href="/department/staff" Icon="@Icons.Material.Filled.Groups2" IconColor="Color.Primary">Staff</MudNavLink>
+                        <MudNavLink Href="/department/assignwork" Icon="@Icons.Material.Filled.AssignmentInd" IconColor="Color.Primary">Assign Work</MudNavLink>
                     </MudNavGroup>
                 </MudNavGroup>
             </Authorized>
         </AuthorizeView>
 
+        @* Academic *@
+        <AuthorizeView Roles="Admin,Staff,Lecture">
+           <Authorized>
+                <MudNavGroup Title="Academic" Icon="@Icons.Material.Filled.School" IconColor="Color.Primary">
+                    <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Error" Class="pa-2">
+                        <MudNavLink Href="/ModuleManagementTabs" Icon="@Icons.Material.Filled.Subject" IconColor="Color.Primary">Modules</MudNavLink>
+                        <MudNavLink Href="/ResultManagementTabs" Icon="@Icons.Material.Filled.Assessment" IconColor="Color.Primary">Results</MudNavLink>
+                        <MudNavLink Href="/MentoringManagementPage" Icon="@Icons.Material.Filled.People" IconColor="Color.Primary">Mentoring</MudNavLink>
+                        <MudNavLink Href="/RequestManagementTabs" Icon="@Icons.Material.Filled.CompareArrows" IconColor="Color.Primary">Requests</MudNavLink>
+                    </MudNavMenu>
+                </MudNavGroup>
+           </Authorized>
+       </AuthorizeView>
+
     </MudNavMenu>
+
+
+   
 
    
 

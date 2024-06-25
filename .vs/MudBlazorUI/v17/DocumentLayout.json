@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\University\\GitHub\\ERP-System-FoE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\notconfirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\notconfirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\verify2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\verify2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\emailconfrimsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\emailconfrimsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\accountrestrictedpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\accountrestrictedpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\userlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\userlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,71 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NotConfirmEmail.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T12:07:57.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Verify2Fa.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T12:07:35.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailConfrimSuccess.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T12:03:29.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserLogin.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T11:32:35.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountRestrictedPage.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T11:31:49.023Z",
-              "EditorCaption": ""
             }
           ]
         },

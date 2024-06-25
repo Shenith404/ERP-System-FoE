@@ -7,9 +7,9 @@
 @inject IDialogService DialogService
 @inject IAdminService adminService
 
-@attribute [Authorize]
+@attribute [Authorize(Roles = "Admin")]
 
-<div style="height:100%;margin:80px 0px 0px 0px;">
+<div style="height:100%;margin:0px 0px 0px 0px;">
     <MudTable Height="70vh" Elevation="0" ServerData="@(new Func<TableState, Task<TableData<UserModelResponseDTO>>>(ServerReload))"
               Dense="true" Hover="true" @ref="table">
 
