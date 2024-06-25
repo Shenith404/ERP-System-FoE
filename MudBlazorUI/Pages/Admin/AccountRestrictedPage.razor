@@ -1,85 +1,57 @@
 ﻿@page "/accountrestricted"
+@layout NoNavLayout
+@using Blazored.SessionStorage
+@using MudBlazor
+@using System.ComponentModel.DataAnnotations
+@using MudBlazorUI.Auth.Services
+@using MudBlazorUI.Core.DTOs.Request
 
-<!--
-
-
-
-
-@page "/accountrestricted"
-
-@layout HeaderImageLayout
-
-@inject NavigationManager NavigationManager
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BodyS:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-<MyMudProviders />
-
-<PageTitle>Account Restricted</PageTitle>
-
-
-<MudPaper Class=" pa-20" Style="@($"color:{Colors.Purple.Darken3}; font-size: 13px; display:flex; justify-content: center; align-items: center; margin-top:25px; margin-bottom:40px; border: none")">
-    <div style="width: 416px;background: #F3F1F1; height: 300px; position: relative; border-radius: 8px">
-        <div style="display: flex; justify-content: center; align-items: center; margin-top:15px" >
-            <span style="font-family: 'Material Symbols Outlined'; font-size: 40px; color: #FF1414;">&#xe99a;</span>
-        </div>
-            <div style="left: 93px; top: 83px;justify-content: center; position: absolute; color: #FF1414; font-size: 25px; font-family: Roboto Serif; font-weight: 700; line-height: 32px; word-wrap: break-word">
-                Account Restricted
-            </div>
-            <div style="width: 273px; left: 71px; top: 114px; position: absolute; text-align: center; color: rgba(0, 0, 0, 0.53); font-size: 13px; font-family: Roboto Serif; font-weight: 400; line-height: 24px; word-wrap: break-word">
-                You’re temporarily restricted from performing certain actions on the system
-            </div>
-            <MudCardActions style="position: absolute; bottom: 25px; width: 100%; display: flex; justify-content: center;" Class="mt-n5">
-                <MudButton @onclick="RequestAccess" ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Class="mybutton" Rounded="Rounded.All">
-                    <span style="font-family: 'Inter'; font-size: 12px;">Request access</span>
-                </MudButton>
-            </MudCardActions>
-            
-        <div style="position: absolute; bottom: 0; width: 100%; text-align: center; margin-top:200px;">
-            <div style="color: black; font-size: 14px; font-family: Inter; font-weight: 500; line-height: 24px; word-wrap: break-word;">
-                Back to
-                <MudLink Href="/" Underline="Underline.None" Style="color: #3549FD; font-size: 14px; font-family: Inter; font-weight: 500; text-decoration: underline; line-height: 24px; word-wrap: break-word">
-                    HomePage
-                </MudLink>
-            </div>
+<div class="page">
+    <MudLayout>
+        <div style="background-image: url('Assets/background-login.png'); background-size: cover; background-position: center; height: 430px; width: 100%; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%;margin-top: -60px; height: 100%; display: flex; justify-content: center; align-items: center;">
+                <MudImage Src="Assets/image3.png" Alt="UOR" Width="80" Height="100" Elevation="30" Class="rounded-lg" />
+                <div style="display: flex; flex-direction: column; align-items: center; padding-left: 20px; padding-right: 20px;">
+                    <MudText Typo="Typo.h4" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold; ")">FACULTY OF ENGINEERING</MudText>
+                    <MudText Typo="Typo.h5" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">UNIVERSITY OF RUHUNA</MudText>
+                </div>
+                <MudImage Src="Assets/image2.png" Alt="UOR" Width="80" Height="100" Elevation="30" Class="rounded-lg" />
             </div>
         </div>
+        <div style="display: flex; justify-content: center; position: relative; margin-top: -100px; margin-bottom: 120px; margin-left: -85px;">
+            <MudGrid Justify="Justify.Center" Class="mt-n10 pa-20">
+                <MudItem Class="mx-auto">
+                    <MudCard Outlined="true" Style="border-radius: 10px; width: 120%; max-width: 500px;">
+                        <MudCardContent Style="display: flex; justify-content: center;">
+                            <MudIcon Icon="@Icons.Material.Filled.Lock" Color="Color.Error" Size="Size.Large"></MudIcon>
+                        </MudCardContent>
+                        <MudCardContent Class="pa-20">
+                            <MudText Align="Align.Center" Style="@($"color:{Colors.Red.Default}; padding-top: 5px;")" Typo="Typo.h4">
+                                <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">Account Restricted</span>
+                            </MudText>
 
-        
-      
-    </MudPaper>
+                            <MudText Style="text-align:center">
+                                You’re temporarily restricted from performing
+                            </MudText>
+                            <MudText Style="text-align:center">
+                                certain actions on the system.
+                            </MudText>
+                        </MudCardContent>
+                        <MudCardActions Style="display: flex; justify-content: center; padding: 2px 10px 10px 10px;">
+                            <MudButton OnClick="GoToHomePage" ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Style="width: 70%; height: 40px; border-radius: 7px; margin: 10px 0;">
+                                Go To HomePage
+                            </MudButton>
+                        </MudCardActions>
+                    </MudCard>
+                </MudItem>
+            </MudGrid>
 
-
-
-<style>
-    .mybutton {
-        width: 200px;
-        height: 40px;
-        border-radius: 7px; /* Round the corners to 5px */
-        display: flex; /* Set display to flex */
-        justify-content: center; /* Center the button horizontally */
-        margin: auto; /* Center the button both horizontally and vertically */
-        margin-bottom: 20px; /* Add space after the button */
-        margin-top: -10px;
-    }
-
-    <style >
-    .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
-    }
-</style>
-</style>
-
-@code {
-    // Method to handle button click for requesting access
-    private void RequestAccess()
+        </div>
+    </MudLayout>
+</div>
+@code{
+    public void GoToHomePage()
     {
-        // Add logic here for requesting access
-        // For example, you can navigate to another page or display a message
-        NavigationManager.NavigateTo("/requestaccess");
+        NavigationManager.NavigateTo("/");
     }
 }
-
-
--->

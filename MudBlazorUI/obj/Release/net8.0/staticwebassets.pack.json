@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\obj\\Release\\net8.0\\compressed\\tpr7f2dehj.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\obj\\Release\\net8.0\\scopedcss\\bundle\\MudBlazorUI.styles.css",
+      "PackagePath": "staticwebassets\\MudBlazorUI.styles.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\1.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\2.png",
+      "PackagePath": "staticwebassets\\Assets\\2.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\3.png",
+      "PackagePath": "staticwebassets\\Assets\\3.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\4.png",
+      "PackagePath": "staticwebassets\\Assets\\4.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\5.png",
+      "PackagePath": "staticwebassets\\Assets\\5.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\background-login.png",
+      "PackagePath": "staticwebassets\\Assets\\background-login.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\image2.png",
+      "PackagePath": "staticwebassets\\Assets\\image2.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\image3.png",
+      "PackagePath": "staticwebassets\\Assets\\image3.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\Assets\\image4.JPG",
+      "PackagePath": "staticwebassets\\Assets\\image4.JPG"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MudBlazorUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.MudBlazorUI.props",
+      "PackagePath": "build\\MudBlazorUI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MudBlazorUI.props",
+      "PackagePath": "buildMultiTargeting\\MudBlazorUI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.MudBlazorUI.props",
+      "PackagePath": "buildTransitive\\MudBlazorUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

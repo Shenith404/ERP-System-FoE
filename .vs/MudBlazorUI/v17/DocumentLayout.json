@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\University\\GitHub\\ERP-System-FoE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\notconfirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\notconfirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\department\\graduates\\graduatehome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\department\\graduates\\graduatehome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\verify2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\verify2fa.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\admin service\\auth service\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\admin service\\auth service\\services\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\emailconfrimsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\emailconfrimsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\admin service\\auth service\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\admin service\\auth service\\services\\jwtauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\accountrestrictedpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\accountrestrictedpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|e:\\university\\github\\erp-system-foe\\mudblazorui\\pages\\admin\\account\\userlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC4C852-DFAE-42BD-B060-CEF9CCA83A7D}|MudBlazorUI\\MudBlazorUI.csproj|solutionrelative:mudblazorui\\pages\\admin\\account\\userlogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,65 +50,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotConfirmEmail.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\NotConfirmEmail.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T12:07:57.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GraduateHome.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Department\\Graduates\\GraduateHome.razor",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Department\\Graduates\\GraduateHome.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Department\\Graduates\\GraduateHome.razor",
-              "RelativeToolTip": "MudBlazorUI\\Pages\\Department\\Graduates\\GraduateHome.razor",
+              "Title": "Verify2Fa.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\Verify2Fa.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T14:02:22.283Z",
+              "WhenOpened": "2024-06-25T12:07:35.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Services\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Admin Service\\Auth Service\\Services\\CustomAuthenticationStateProvider.cs",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Services\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "MudBlazorUI\\Admin Service\\Auth Service\\Services\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAuwKwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:56:23.485Z",
+              "Title": "EmailConfrimSuccess.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T12:03:29.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLogin.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\UserLogin.razor",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T11:32:35.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "JwtAuthenticationService.cs",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Services\\JwtAuthenticationService.cs",
-              "RelativeDocumentMoniker": "MudBlazorUI\\Admin Service\\Auth Service\\Services\\JwtAuthenticationService.cs",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Admin Service\\Auth Service\\Services\\JwtAuthenticationService.cs",
-              "RelativeToolTip": "MudBlazorUI\\Admin Service\\Auth Service\\Services\\JwtAuthenticationService.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAUwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:56:16.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GraduateProfileDialog.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGQAAAAJAAAA",
+              "Title": "AccountRestrictedPage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
+              "RelativeDocumentMoniker": "MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
+              "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\AccountRestrictedPage.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T10:42:33.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GraduatesList.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAEsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T10:41:20.333Z",
+              "WhenOpened": "2024-06-25T11:31:49.023Z",
               "EditorCaption": ""
             }
           ]

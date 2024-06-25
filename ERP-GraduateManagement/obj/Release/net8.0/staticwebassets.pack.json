@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ERP-GraduateManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ERP-GraduateManagement.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ERP-GraduateManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ERP-GraduateManagement.props",
+      "PackagePath": "build\\ERP-GraduateManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ERP-GraduateManagement.props",
+      "PackagePath": "buildMultiTargeting\\ERP-GraduateManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ERP-GraduateManagement.props",
+      "PackagePath": "buildTransitive\\ERP-GraduateManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

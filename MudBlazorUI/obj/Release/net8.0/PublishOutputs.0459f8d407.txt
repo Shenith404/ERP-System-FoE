@@ -1,0 +1,1 @@
+E:\University\GitHub\ERP-System-FoE\MudBlazorUI\obj\Release\net8.0\browser-wasm\PubTmp\Out\web.config
