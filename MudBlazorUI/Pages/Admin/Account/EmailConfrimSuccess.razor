@@ -19,13 +19,24 @@
             <MudGrid Justify="Justify.Center" Class="mt-n10 pa-20">
                 <MudItem Class="mx-auto">
                     <MudCard Outlined="true" Style="border-radius: 10px; width: 120%; max-width: 500px;">
-                        <MudCardContent Style="display: flex; justify-content: center;">
-                            <MudIcon Icon="@Icons.Material.Filled.Email" Color="Color.Error" Size="Size.Large"></MudIcon>
-                        </MudCardContent>
+                       
                         <MudCardContent Class="pa-20">
-                            <MudText Align="Align.Center" Style="@($"color:{Colors.Red.Default}; padding-top: 5px;")" Typo="Typo.h4">
-                                <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">@message</span>
-                            </MudText>
+                            @if (message == "Email Confrim is Successfull")
+                            {
+                                <MudCardContent Style="display: flex; justify-content: center;">
+                                    <MudIcon Icon="@Icons.Material.Filled.Email" Color="Color.Success" Size="Size.Large"></MudIcon>
+                                </MudCardContent>
+                                <MudText Align="Align.Center" Style="@($"color:{Colors.Green.Default}; padding-top: 5px;")" Typo="Typo.h4">
+                                    <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">@message</span>
+                                </MudText>
+                            }else{
+                                <MudCardContent Style="display: flex; justify-content: center;">
+                                    <MudIcon Icon="@Icons.Material.Filled.Email" Color="Color.Error" Size="Size.Large"></MudIcon>
+                                </MudCardContent>
+                                <MudText Align="Align.Center" Style="@($"color:{Colors.Red.Default}; padding-top: 5px;")" Typo="Typo.h4">
+                                    <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">@message</span>
+                                </MudText>
+                            }
 
                             <MudText Style="text-align:center">
                                 You’re temporarily restricted from performing

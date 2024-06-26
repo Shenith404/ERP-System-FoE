@@ -2,13 +2,6 @@ using Microsoft.JSInterop;
 
 namespace ERP_EvaluationManagement;
 
-// This class provides an example of how JavaScript functionality can be wrapped
-// in a .NET class for easy consumption. The associated JavaScript module is
-// loaded on demand when first needed.
-//
-// This class can be registered as scoped DI service and then injected into Blazor
-// components for use.
-
 public class ExampleJsInterop : IAsyncDisposable
 {
     private readonly Lazy<Task<IJSObjectReference>> moduleTask;
@@ -16,7 +9,7 @@ public class ExampleJsInterop : IAsyncDisposable
     public ExampleJsInterop(IJSRuntime jsRuntime)
     {
         moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-            "import", "./_content/ERP_EvaluationManagement/exampleJsInterop.js").AsTask());
+            "import", "./_content/ERP-EvaluationManagement/exampleJsInterop.js").AsTask());
     }
 
     public async ValueTask<string> Prompt(string message)

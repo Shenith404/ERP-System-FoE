@@ -108,7 +108,9 @@
 
     private async Task SaveExcelFile(byte[] fileContent, string fileName)
     {
-        await File.WriteAllBytesAsync($"./wwwroot/exports/{fileName}", fileContent);
+        // Convert byte array to base64 string
+        var base64String = Convert.ToBase64String(fileContent);
+        await JS.InvokeVoidAsync("triggerFileDownload", fileName, base64String);
     }
 
     private async Task DownloadExcel(string fileName)
@@ -122,10 +124,18 @@
         var response = await Http.GetAsync($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{ModuleOfferingId}/{EvaluationId}/exports/results", HttpCompletionOption.ResponseHeadersRead);
         if (response.IsSuccessStatusCode)
         {
-            var fileContent = await response.Content.ReadAsByteArrayAsync();
-            var fileName = await GenerateExcelName();
-            await SaveExcelFile(fileContent, fileName);
-            await DownloadExcel(fileName);
+            try
+            {
+                var fileContent = await response.Content.ReadAsByteArrayAsync();
+                var fileName = await GenerateExcelName();
+                await SaveExcelFile(fileContent, fileName);
+                await DownloadExcel(fileName);
+                Console.WriteLine("DOne");
+            }
+            catch
+            {
+               
+            }
         }
         else
         {

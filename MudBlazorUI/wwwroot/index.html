@@ -29,9 +29,28 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script>
+        window.triggerFileDownload = function (fileName, base64Content) {
+            var binary = atob(base64Content);
+            var len = binary.length;
+            var buffer = new Uint8Array(len);
+            for (var i = 0; i < len; i++) {
+                buffer[i] = binary.charCodeAt(i);
+            }
+            var blob = new Blob([buffer], { type: "application/octet-stream" });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        };
+    </script>
+
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
-
 
 </body>
 

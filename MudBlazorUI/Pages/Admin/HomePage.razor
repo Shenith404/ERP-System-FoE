@@ -16,6 +16,16 @@
                 <div class="d-flex" style="height:100%; padding: 0; margin: 0;">
                     <img src="@imageUrl" style="width: 100%; height: auto;" />
                 </div>
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%;margin-top: 200px; height: 100%; display: flex; justify-content: left; padding-left: 100px;">
+                    <MudImage Src="Assets/image3.png" Alt="UOR" Width="100" Height="150" Elevation="30" Class="rounded-lg" />
+                    <div style="display: flex; flex-direction: column; align-items:left; padding-left: 20px; padding-right: 20px;">
+                        <MudText Typo="Typo.h3" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">FACULTY OF ENGINEERING</MudText>
+                        <MudText Typo="Typo.h5" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">UNIVERSITY OF RUHUNA</MudText>
+                        <MudText Typo="Typo.h6" Class="pa-2" Style="@($"color:{Colors.Grey.Lighten5}; font-weight: bold;")">ERP SYSTEM</MudText>
+                    </div>
+
+                </div>
             </MudCarouselItem>
         }
     </MudCarousel>
@@ -36,12 +46,18 @@
                 <div style="padding: 20px;">
                     <h2 style="font-size: 24px; margin-bottom: 10px;">About Us</h2>
                     <p style="font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et urna sit amet quam vehicula volutpat. Integer vel nisi sapien.
-                        Duis nec risus vel mauris lacinia vestibulum. Nam volutpat nulla in eros consequat, vitae tincidunt tortor convallis.
+                        The Faculty of Engineering of University of Ruhuna was established on
+                        1st July 1999 at Hapugala, Galle. First batch of students was admitted on
+                        27th March 2000. Admission to the Faculty of Engineering,
+                        University of Ruhuna, is subject to the University Grants Commission policy
+                        on university admissions.
                     </p>
                     <p style="font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
-                        Mauris interdum semper metus, at facilisis ex tincidunt sit amet. Vestibulum nec ipsum tincidunt, laoreet nisi ac, consequat felis.
-                        Phasellus vel lectus vitae tortor placerat lacinia. Curabitur fermentum interdum urna nec ullamcorper.
+                        The present annual intake to the Faculty is 530.
+                        The Faculty of Engineering offers full-time courses leading to the
+                        Degree of Bachelor of the Science of Engineering Honors (B.Sc.Eng.Hons.),
+                        which is accredited by the Institution of Engineers, Sri Lanka (IESL).
+                        Four academic departments in this Faculty are
                     </p>
                     <!-- Clickable Button -->
                     <MudButton Variant="Variant.Filled" Color="Color.Primary" href="https://www.eng.ruh.ac.lk/" target="_blank">Visit Website</MudButton>
@@ -59,35 +75,35 @@
                              Title="Admin Portal"
                              Content1="The admin portal provides access to administrative tools for managing the entire ERP system, including user management, "
                              Content2=" system settings, security configurations, data analytics, and reporting."
-                             Button1Text="Login" />
+                              />
         </MudItem>
         <MudItem Class="mt-4 mb-4">
             <PortalLoginCard Image="./Assets/2.png"
                              Title="Student Portal"
                              Content1="This portal is designed for students to access information related to their courses, grades,"
                              Content2=" schedules, academic progress,results and any of relevant announcements or events."
-                             Button1Text="Login" />
+                             />
         </MudItem>
         <MudItem Class="mt-4 mb-4">
             <PortalLoginCard Image="./Assets/1.png"
                              Title="Department Portal"
                              Content1="This portal focuses on department-specific functions such as curriculum management, faculty resources,"
                              Content2=" research activities, and collaboration within the department."
-                             Button1Text="Login" />
+                              />
         </MudItem>
         <MudItem Class="mt-4 mb-4">
             <PortalLoginCard Image="./Assets/3.png"
                              Title="Acedamic Portal"
                              Content1="This portal covers academic-related activities, including curriculum planning, course catalog management, "
                              Content2="academic calendar updates, assessment and grading tools, and academic performance analysis."
-                             Button1Text="Login" />
+                            />
         </MudItem>
         <MudItem Class="mt-4 mb-4">
             <PortalLoginCard Image="./Assets/5.png"
                              Title="Staff Portal"
                              Content1="The staff portal is for faculty and administrative staff to manage course materials, student records,"
                              Content2=" academic policies, scheduling, and communication with students and other staff members."
-                             Button1Text="Login" />
+                              />
         </MudItem>
     </MudGrid>
 

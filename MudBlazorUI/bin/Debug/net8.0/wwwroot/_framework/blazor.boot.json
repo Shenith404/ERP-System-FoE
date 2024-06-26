@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MudBlazorUI",
   "resources": {
-    "hash": "sha256-sXykMzgbIFDhY1T0WzUR1Gpx2Z7000p3NgEcHrPp4oU=",
+    "hash": "sha256-fnt4yvB0qVnjqHCF2mavyQ4d3mD6Aed7Lgy1EOpyYz8=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.23kn6umpq5.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -265,20 +265,20 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "ERP-EvaluationManagement.wasm": "sha256-zsVmAw6S+va8WF7KcOnA2pTIIPtgnRnjOJpLrHcO2j0=",
+      "ERP-EvaluationManagement.wasm": "sha256-+l2z/cUoMd6TT3aURASAzIossk4ZqmvY+5I1uhOEScg=",
       "ERP-GraduateManagement.wasm": "sha256-6j5o1Z1W7gb11qpJmqbGtBkDgu+JeCMbJFon+22FQe0=",
       "ERP-LabEquipmentManagement.wasm": "sha256-cqI8z2n47U1hx9JfeeNcSKZSfH4ShEqcsZZxG/dRe40=",
       "ERP-LabScheduleManagement.wasm": "sha256-YtpIbYMPFhjX5yK6KbKsaSCw4D6uZx60uegYM8qDdVY=",
       "ERP-WorkLoadManagement.wasm": "sha256-raNoPmfSB8UinfeM7rWTvyyPRKjATaZvnF+XU4sVsKA=",
-      "MudBlazorUI.wasm": "sha256-l7jFMCnUBC2iNxLzkUQCPUw5qnxAwfvZMmp+HpHhSQo="
+      "MudBlazorUI.wasm": "sha256-q4koaG66mEDrXQSg6icSCfyJDf7h+xou0QiJS6HQz10="
     },
     "pdb": {
-      "ERP-EvaluationManagement.pdb": "sha256-ukJv4NBcWDmtTsdbcp6/KdzSc9ZnoWhJZoG9BCMj+cg=",
+      "ERP-EvaluationManagement.pdb": "sha256-7JgSnexOlEtUtbTQIfvlcSpthYZ6EVWKeDN1zKqbmCY=",
       "ERP-GraduateManagement.pdb": "sha256-guIWeSbyxk7ipQsiE9e88wfSB3IvMP8XRMJrw8jjRy0=",
       "ERP-LabEquipmentManagement.pdb": "sha256-e1h1rKoAt8A9FKCZlxH5FOXJpK9mIssH0jIjiym93Oo=",
       "ERP-LabScheduleManagement.pdb": "sha256-1rBKnOXGiy39eU6KxjPjq0KT7byv0vW1FYqNM66ArwE=",
       "ERP-WorkLoadManagement.pdb": "sha256-3WFdWCHldR+kS8d7Mn9jwhBLKcvzfy2RulAzZ5VUIy8=",
-      "MudBlazorUI.pdb": "sha256-flD/mcyxwEbS9a9YiqlQk1/oKWgRECLCuFWf8Dq6B4w="
+      "MudBlazorUI.pdb": "sha256-7dWOCk59ZbPf6l4aHite1YEljirwAYdSoEPGzWw135M="
     },
     "satelliteResources": {
       "de": {
