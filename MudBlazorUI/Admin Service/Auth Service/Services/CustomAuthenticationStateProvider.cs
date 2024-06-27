@@ -110,7 +110,7 @@ namespace MudBlazorUI.Auth.Services
             var name = principals?.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Name)?.Value; // Custom claim type
             var id = principals?.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value; // Custom claim type
             var role = principals?.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role)?.Value; // Custom claim type
-            Console.WriteLine(name + id + role);
+            Console.WriteLine(name + "sdfsdfdsf" + role);
 
             return (name, id, role);
         }

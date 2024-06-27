@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "E:\\University\\GitHub\\ERP-System-FoE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateprofiledialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\modulemanagementpages\\components\\firstexaminer\\fe_displayevaluationlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\modulemanagementpages\\components\\firstexaminer\\fe_displayevaluationlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C10F1499-96DA-4E27-88C6-7A8602D3FC80}|ERP-GraduateManagement\\ERP-GraduateManagement.csproj|solutionrelative:erp-graduatemanagement\\graduatecomponents\\graduateslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\modulemanagementpages\\components\\displayevaluationlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\modulemanagementpages\\components\\displayevaluationlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\mentoringmanagementpages\\pages\\displayacademicadvicees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\mentoringmanagementpages\\pages\\displayacademicadvicees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\pages\\viewstudentrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\pages\\viewstudentrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\pages\\viewoutgoingstaffrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\pages\\viewoutgoingstaffrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\pages\\viewincomingstaffrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\pages\\viewincomingstaffrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\pages\\viewbatchrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\pages\\viewbatchrequestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\pages\\requestmanagementtabs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\pages\\requestmanagementtabs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\makestaffrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\makestaffrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\makerequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\makerequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\displayteacherrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\displayteacherrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\displaystudentrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\displaystudentrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\displayoutgoingstaffrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\displayoutgoingstaffrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\displayincomingstaffrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\displayincomingstaffrequests.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\createteacherrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\createteacherrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\requestmanagementpages\\components\\createstaffrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\requestmanagementpages\\components\\createstaffrequestcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|e:\\university\\github\\erp-system-foe\\erp-evaluationmanagement\\mentoringmanagementpages\\components\\displaybatchlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B91E6758-B09A-4547-A8D9-7BACDBDD2183}|ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj|solutionrelative:erp-evaluationmanagement\\mentoringmanagementpages\\components\\displaybatchlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,27 +99,222 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GraduateProfileDialog.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduateProfileDialog.razor",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGQAAAAJAAAA",
+              "Title": "FE_DisplayEvaluationList.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ModuleManagementPages\\Components\\FirstExaminer\\FE_DisplayEvaluationList.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\ModuleManagementPages\\Components\\FirstExaminer\\FE_DisplayEvaluationList.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ModuleManagementPages\\Components\\FirstExaminer\\FE_DisplayEvaluationList.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\ModuleManagementPages\\Components\\FirstExaminer\\FE_DisplayEvaluationList.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T10:42:33.157Z",
+              "WhenOpened": "2024-06-26T05:31:54.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GraduatesList.razor",
-              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "RelativeDocumentMoniker": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "RelativeToolTip": "ERP-GraduateManagement\\GraduateComponents\\GraduatesList.razor",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAEIAAABNAAAA",
+              "Title": "DisplayEvaluationList.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ModuleManagementPages\\Components\\DisplayEvaluationList.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\ModuleManagementPages\\Components\\DisplayEvaluationList.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ModuleManagementPages\\Components\\DisplayEvaluationList.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\ModuleManagementPages\\Components\\DisplayEvaluationList.razor",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T10:41:20.333Z",
+              "WhenOpened": "2024-06-26T05:31:07.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewStudentRequestPage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewStudentRequestPage.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewStudentRequestPage.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewStudentRequestPage.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewStudentRequestPage.razor",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:52.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewOutgoingStaffRequestPage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewOutgoingStaffRequestPage.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewOutgoingStaffRequestPage.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewOutgoingStaffRequestPage.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewOutgoingStaffRequestPage.razor",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:46.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewIncomingStaffRequestPage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewIncomingStaffRequestPage.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewIncomingStaffRequestPage.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewIncomingStaffRequestPage.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewIncomingStaffRequestPage.razor",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:38.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisplayAcademicAdvicees.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\MentoringManagementPages\\Pages\\DisplayAcademicAdvicees.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\MentoringManagementPages\\Pages\\DisplayAcademicAdvicees.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\MentoringManagementPages\\Pages\\DisplayAcademicAdvicees.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\MentoringManagementPages\\Pages\\DisplayAcademicAdvicees.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:24:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewBatchRequestPage.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewBatchRequestPage.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewBatchRequestPage.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewBatchRequestPage.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\ViewBatchRequestPage.razor",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:33.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestManagementTabs.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\RequestManagementTabs.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\RequestManagementTabs.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Pages\\RequestManagementTabs.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Pages\\RequestManagementTabs.razor",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:27.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MakeStaffRequestComponent.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeStaffRequestComponent.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeStaffRequestComponent.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeStaffRequestComponent.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeStaffRequestComponent.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:21.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MakeRequestComponent.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeRequestComponent.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeRequestComponent.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeRequestComponent.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\MakeRequestComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:15.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisplayTeacherRequests.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayTeacherRequests.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayTeacherRequests.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayTeacherRequests.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayTeacherRequests.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:12.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DisplayStudentRequests.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayStudentRequests.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayStudentRequests.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayStudentRequests.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayStudentRequests.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:09.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DisplayOutgoingStaffRequests.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayOutgoingStaffRequests.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayOutgoingStaffRequests.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayOutgoingStaffRequests.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayOutgoingStaffRequests.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:06.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DisplayIncomingStaffRequests.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayIncomingStaffRequests.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayIncomingStaffRequests.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayIncomingStaffRequests.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayIncomingStaffRequests.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:25:03.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateTeacherRequestComponent.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateTeacherRequestComponent.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateTeacherRequestComponent.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateTeacherRequestComponent.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateTeacherRequestComponent.razor",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:24:58.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateStaffRequestComponent.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateStaffRequestComponent.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateStaffRequestComponent.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateStaffRequestComponent.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\CreateStaffRequestComponent.razor",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:24:47.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DisplayBatchList.razor",
+              "DocumentMoniker": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\MentoringManagementPages\\Components\\DisplayBatchList.razor",
+              "RelativeDocumentMoniker": "ERP-EvaluationManagement\\MentoringManagementPages\\Components\\DisplayBatchList.razor",
+              "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\MentoringManagementPages\\Components\\DisplayBatchList.razor",
+              "RelativeToolTip": "ERP-EvaluationManagement\\MentoringManagementPages\\Components\\DisplayBatchList.razor",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T05:24:25.018Z",
               "EditorCaption": ""
             }
           ]

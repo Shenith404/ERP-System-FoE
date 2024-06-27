@@ -1,0 +1,80 @@
+@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@using ERP_EvaluationManagement.ModuleManagementPages.Components.FirstExaminer
+
+@inject ISnackbar Snackbar
+
+@if (_moduleOffering != null)
+{
+    <div class="pt-4">
+        <h1 class="result-header pb-3" style="color:purple; text-align:center">@_moduleOffering.ModuleCode @_moduleOffering.ModuleName</h1>
+    </div>
+    <MudTabs Outlined="true" Rounded="true" Border="true"
+             ApplyEffectsToContainer="true" PanelClass="pa-6" Color="Color.Primary" @ref="tabs">
+        <MudTabPanel Text="Assignments" Icon="@Icons.Material.Filled.Assignment" @ref="panel01">
+            <MudItem>
+                <FE_DisplayEvaluationList ModuleOfferingId="ModuleOfferingId"></FE_DisplayEvaluationList>
+            </MudItem>
+        </MudTabPanel>
+
+        <MudTabPanel Text="Student List" Icon="@Icons.Material.Filled.People" @ref="panel03">
+            <DisplayStudentList ModuleOfferingId="ModuleOfferingId"></DisplayStudentList>
+        </MudTabPanel>
+
+
+
+        <MudTabPanel Text="All Results" Icon="@Icons.Material.Filled.TableView" @ref="panel04">
+            <DisplayAllResultsComponent ModuleOfferingId="ModuleOfferingId"></DisplayAllResultsComponent>
+        </MudTabPanel>
+    </MudTabs>
+
+
+}
+else
+{
+    <p>Module offering information not found.</p>
+}
+
+
+
+@code {
+    MudTabs tabs;
+    MudTabPanel panel01;
+    MudTabPanel panel02;
+    MudTabPanel panel03;
+    MudTabPanel panel04;
+
+
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private GetModuleOfferingDetailsResponse? _moduleOffering;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModuleOfferingInfoAsync();
+    }
+
+    private async Task LoadModuleOfferingInfoAsync()
+    {
+        try
+        {
+            _moduleOffering = await Http.GetFromJsonAsync<GetModuleOfferingDetailsResponse>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleOffering/{ModuleOfferingId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading module offering: {ex.Message}");
+        }
+    }
+
+    private async Task Activate_01()
+    {
+
+        await LoadModuleOfferingInfoAsync();
+        tabs.ActivatePanel(panel01);
+        Snackbar.Add("Evaluation Added Successfully", Severity.Success);
+    }
+
+}

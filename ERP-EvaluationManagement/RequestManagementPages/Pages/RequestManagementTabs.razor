@@ -1,0 +1,117 @@
+﻿@using ERP_EvaluationManagement.RequestManagementPages.Components
+
+
+<div style="display: flex; gap: 16px;">
+    <MudPaper Elevation="2" Class="pa-4" Style="@($"background:{Colors.LightBlue.Lighten5}; width: 80%; height: auto;")">
+<MudTabs Outlined="true" Rounded="true" Border="true"
+         ApplyEffectsToContainer="true" PanelClass="pa-6" Color="Color.Primary">
+    <MudTabPanel Text="Student Requests">
+        <MudTabs Outlined="true" Rounded="true" Elevation="1" Border="true"
+                 ApplyEffectsToContainer="true" PanelClass="pa-6">
+            <MudTabPanel Icon="@Icons.Material.Filled.ArrowBack" Text="Incoming Requests">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <DisplayStudentRequests />
+                    </MudItem>
+                   @*  <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+
+            <MudTabPanel Icon="@Icons.Material.Filled.ArrowForward" Text="Outgoing Requests">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <DisplayTeacherRequests />
+                    </MudItem>
+                   @*  <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+            <MudTabPanel Icon="@Icons.Material.Filled.AddCircleOutline" Text="Make Request">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <MakeRequestComponent />
+                    </MudItem>
+                    @* <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+
+            
+
+        </MudTabs>
+    </MudTabPanel>
+
+    <MudTabPanel Text="Staff Requests">
+        <MudTabs Outlined="true" Rounded="true" Border="true"
+                 ApplyEffectsToContainer="true" PanelClass="pa-6">
+
+            <MudTabPanel Icon="@Icons.Material.Filled.ArrowBack" Text="Incoming Requests">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <DisplayIncomingStaffRequests />
+                    </MudItem>
+                   @*  <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+            <MudTabPanel Icon="@Icons.Material.Filled.ArrowForward" Text="Outgoing Requests">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <DisplayOutgoingStaffRequests />
+                    </MudItem>
+                    @* <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+            <MudTabPanel Icon="@Icons.Material.Filled.AddCircleOutline" Text="Make Request">
+                <MudGrid>
+                    <MudItem xs="9">
+                        <MakeStaffRequestComponent />
+                    </MudItem>
+                    @* <MudItem xs="2" Class="mt-15">
+                        <MudDatePicker Class="pr-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="0" Date="DateTime.Today" />
+                    </MudItem> *@
+                </MudGrid>
+            </MudTabPanel>
+        </MudTabs>
+    </MudTabPanel>
+</MudTabs>
+</MudPaper>
+
+<MudPaper>
+        <MudDatePicker Class="mb-5" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="12" Date="DateTime.Today" />
+
+        <MudCarousel Class="mud-width-full" Style="height:200px;" AutoCycle="@autocycle" TData="object">
+
+            <MudCarouselItem Transition="transition" Color="@Color.Primary">
+                <div class="d-flex" style="height:100%; width:100%;">
+                    <img src="https://docs.fohss.lk/storage/0dbd61057a19f1d42453a7ecc60d299c/0dbd61057a19f1d42453a7ecc60d299c/207c48c4885718c049c55e6ea58a0441.jpg" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+                </div>
+            </MudCarouselItem>
+
+            <MudCarouselItem Transition="transition" Color="@Color.Secondary">
+                <div class="d-flex" style="height:100%; width:100%;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjo92OcdaC1p1Dk3wlYMPpC3G9aGow4ofDmUsxDvBDsTMStpPU7IrpSMvC7rHhcdnxmM&usqp=CAU" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+                </div>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4aRb3L0WiXE9y9AbOW1HU33lGPQlshGx-g&s
+            </MudCarouselItem>
+            <MudCarouselItem Transition="transition">
+                <div class="d-flex" style="height:100%; width:100%;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4aRb3L0WiXE9y9AbOW1HU33lGPQlshGx-g&s" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+                </div>
+            </MudCarouselItem>
+        </MudCarousel>
+</MudPaper>
+
+</div>
+
+@code {
+        private bool autocycle = true;
+        private Transition transition = Transition.Slide;
+    }
+}

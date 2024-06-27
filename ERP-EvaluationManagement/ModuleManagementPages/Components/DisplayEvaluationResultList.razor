@@ -1,0 +1,42 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+
+<h1 class="result-header pb-3" style="color:black; text-align:center">Results</h1>
+@if (_studentResults != null && _studentResults.Any())
+{
+	<MudCardContent Class="border-solid border-2 mud-border-primary pa-4" Elevation="0" Style="height: 400px;  background-color: lightcyan;">
+	<MudTable Items="@_studentResults" Dense="true" Hover="true" Bordered="true" Striped="false" Style="background-color: white;">
+		<HeaderContent>
+			<MudTh>Reg Number</MudTh>
+			<MudTh>Name</MudTh>
+			<MudTh>Marks</MudTh>
+		</HeaderContent>
+		<RowTemplate>
+			<MudTd DataLabel="RegNo">@context.RegistrationNum</MudTd>
+				<MudTd DataLabel="FullName">@context.FullName </MudTd>
+				<MudTd DataLabel="Marks">@context.StudentScore</MudTd>
+			</RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+		</MudCardContent>
+}
+else
+{
+	<p>No marks have been added to the system.</p>
+}
+
+
+@code {
+	[Parameter]
+	public Guid EvaluationId { get; set; }
+	private HttpClient Http = new HttpClient();
+
+	private List<GetEvaluationResultListResponse> _studentResults = new();
+
+	protected override async Task OnInitializedAsync()
+	{
+		_studentResults = await Http.GetFromJsonAsync<List<GetEvaluationResultListResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{EvaluationId}/results");
+	}
+}

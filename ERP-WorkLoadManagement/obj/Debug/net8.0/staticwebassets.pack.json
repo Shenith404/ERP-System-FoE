@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-WorkLoadManagement.bundle.scp.css",
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ERP-WorkLoadManagement.bundle.scp.css",
       "PackagePath": "staticwebassets\\ERP-WorkLoadManagement.bundle.scp.css"
     },
     {
-      "Id": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\background.png",
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\exampleJsInterop.js",
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {

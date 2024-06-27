@@ -1,0 +1,58 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json;
+@using ERP.EvaluationManagement.Core.DTOs.Responses
+@inject NavigationManager NavigationManager
+
+<MudContainer Class="result-container">
+    <h1 class="result-header pb-3 text-center" style="color:purple; text-align:center;">MODULE OFFERINGS</h1>
+
+    <MudExpansionPanels MultiExpansion="true" Class="border-5" Style="font-weight:bold; font-size:16px">
+        @foreach (var semester in Enumerable.Range(1, 8))
+        {
+            var moduleOfferingsForSemester = _moduleOfferings.Where(m => m.Semester == $"Semester {semester:00}").ToList();
+            <MudExpansionPanel Text=@($"Semester {semester:D2} - ({moduleOfferingsForSemester.Count})") MaxHeight="1000">
+                <div class="mt-4">
+                    <MudList Clickable="true" Dense="false" DisableGutters="false">
+                        @foreach (var moduleOffering in moduleOfferingsForSemester)
+                        {
+                            <MudListItem Text="@moduleOffering.ModuleName" @onclick="() => ViewModuleInformation(moduleOffering.ModuleOfferingId)" Icon="@Icons.Material.Filled.FormatListBulleted" IconColor="Color.Primary" />
+                            @* <div>
+                    <button @onclick="() => ViewModuleInformation(moduleOffering.ModuleOfferingId)">
+                    @moduleOffering.Name
+                    </button>
+                    </div> *@
+                        }
+                    </MudList>
+                </div>
+            </MudExpansionPanel>
+        }
+    </MudExpansionPanels>
+</MudContainer>
+
+<style>
+    .result-container {
+        width: 130%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
+    }
+</style>
+
+@code {
+    private HttpClient Http = new HttpClient();
+    private List<GetParticularSecondExaminerModuleOfferingResponse> _moduleOfferings = new List<GetParticularSecondExaminerModuleOfferingResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModulesAsync();
+    }
+
+    private async Task LoadModulesAsync()
+    {
+        _moduleOfferings = await Http.GetFromJsonAsync<List<GetParticularSecondExaminerModuleOfferingResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/SecondExaminerModuleOffering/af8ad6c4-46f2-4bf8-9628-9cf34e122893/modules");
+    }
+
+    private void ViewModuleInformation(Guid moduleOfferingId)
+    {
+        NavigationManager.NavigateTo($"/ResultManagementTabs/{moduleOfferingId}");
+    }
+}
+
+<link rel="stylesheet" href="styles.css" />

@@ -1,0 +1,13 @@
+﻿@page "/RequestManagementTabs/StaffRequest/Incoming/{requestId:guid}/{senderId:guid}"
+@using ERP_EvaluationManagement.RequestManagementPages.Pages
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+<ViewIncomingStaffRequestPage SenderId="senderId" RequestId="requestId"></ViewIncomingStaffRequestPage>
+
+@code
+{
+    [Parameter]
+    public Guid senderId { get; set; }
+    [Parameter]
+    public Guid requestId { get; set; }
+}
+

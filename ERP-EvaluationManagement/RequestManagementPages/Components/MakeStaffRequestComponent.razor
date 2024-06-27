@@ -1,0 +1,55 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json;
+@inject NavigationManager NavigationManager
+
+<MudContainer Class="result-container">    
+    <h1 class="result-header pb-3" style="color:purple; text-align:center">Teacher List</h1>
+    <MudTable Items="_teachers" Dense="true" Hover="true" Bordered="true" Striped="false">
+        <HeaderContent>
+            <MudTh style="font-size: 20px;">Full Name</MudTh>
+            <MudTh style="font-size: 20px;">Mail</MudTh>
+            <MudTh></MudTh>
+        </HeaderContent>
+        <RowTemplate Context="teacher">
+            <MudTd>@teacher.FullName</MudTd>
+                <MudTd>@teacher.Email</MudTd>
+                <MudTd>
+                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(teacher.TeacherId)">
+                        <b><ul style="text-decoration: underline;">Make Request</ul></b>
+                        </MudButton>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+</MudContainer>
+
+    <style>
+        .result-container {
+            width: 130%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
+        }
+    </style>
+
+@code {
+
+    private HttpClient Http = new HttpClient();
+    private List<GetTeacherResponse> _teachers = new List<GetTeacherResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModulesAsync();
+    }
+
+    private async Task LoadModulesAsync()
+    {
+        _teachers = await Http.GetFromJsonAsync<List<GetTeacherResponse>>($"https://localhost:7111/ApiGateWay/Request-api/TeacherRegistration");
+    }
+
+    private void ViewModuleInformation(Guid recieverId)
+    {
+        NavigationManager.NavigateTo($"/RequestManagementTabs/StaffRequestCreate/{recieverId}");
+    }
+}
+
+<link rel="stylesheet" href="styles.css" />

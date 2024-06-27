@@ -1,0 +1,77 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+
+@if (_acadamicAdvicees != null)
+{
+    <div class="pt-4">
+        <h1 class="result-header pb-3" style="color:purple; text-align:center">Academic Advicee List</h1>
+    </div>
+
+    <MudTable Items="@_acadamicAdvicees" Dense="true" Hover="true" Bordered="true" Striped="false">
+        <HeaderContent>
+            <MudTh>Registration Number</MudTh>
+            <MudTh>Full Name</MudTh>
+            <MudTh>Email</MudTh>
+            <MudTh>Academic Advisor Name</MudTh>
+            <MudTh>Batch Name</MudTh>
+            <MudTh></MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>@context.RegistrationNum</MudTd>
+                <MudTd>@context.FullName</MudTd>
+                <MudTd>@context.Email</MudTd>
+                <MudTd>@context.AcademicAdvisorName</MudTd>
+                <MudTd>@context.BatchName</MudTd>
+                <MudTd>
+                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="(() => ViewModuleInformation(context.StudentId))"><b><ul style="text-decoration: underline;">Request</ul></b></MudButton>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+
+}
+else
+{
+    <p>Module offering information not found.</p>
+}
+
+
+
+@code {
+
+    [Parameter]
+    public Guid BatchId { get; set; }
+
+    public String teacherId = "af8ad6c4-46f2-4bf8-9628-9cf34e122893";
+
+    private HttpClient Http = new HttpClient();
+
+    private List<GetAcademicAdviceesResponse> _acadamicAdvicees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModuleOfferingInfoAsync();
+    }
+
+    private async Task LoadModuleOfferingInfoAsync()
+    {
+        try
+        {
+            _acadamicAdvicees = await Http.GetFromJsonAsync<List<GetAcademicAdviceesResponse>>($"https://localhost:7111/ApiGateWay/Request-api/Student/{BatchId}/{teacherId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading module offering: {ex.Message}");
+        }
+    }
+
+    private void ViewModuleInformation(Guid recieverId)
+    {
+        NavigationManager.NavigateTo($"/RequestManagementTabs/RequestCreate/{recieverId}");
+    }
+
+}

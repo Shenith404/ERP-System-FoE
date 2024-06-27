@@ -1,0 +1,87 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json;
+@inject NavigationManager NavigationManager
+
+
+<div style="display: flex; gap: 16px;">
+    <MudPaper Elevation="2" Class="pa-4" Style="@($"background:{Colors.LightBlue.Lighten5}; width: 80%; height: auto;")">
+@* <MudContainer Class="result-container"> *@
+    <h1 class="result-header pb-3" style="color:purple; text-align:center">BATCHES</h1>
+    @* <MudGrid>
+        <MudItem xs="9"> *@
+            <MudCard Outlined="true">
+                        <div class="mt-4" style="width: 50%;">
+                    <MudList Clickable="true" Dense="false" DisableGutters="false">
+                        @foreach (var batch in _batches)
+                        {
+                            <MudListItem Text="@batch.BatchName" @onclick="() => ViewModuleInformation(batch.BatchId)" Icon="@Icons.Material.Filled.FormatListBulleted" IconColor="Color.Primary" />
+                            @* <div>
+                        <button @onclick="() => ViewModuleInformation(moduleOffering.ModuleOfferingId)">
+                        @moduleOffering.Name
+                        </button>
+                        </div> *@
+                        }
+                    </MudList>
+                </div>
+            </MudCard>
+        @* </MudItem> *@
+        @* <MudItem xs="2" Class="m-0 p-0">
+            <MudDatePicker PickerVariant="PickerVariant.Static" Rounded="true" Elevation="12" Date="DateTime.Today" />
+        </MudItem> *@
+    @* </MudGrid> *@
+@* </MudContainer> *@
+</MudPaper>
+
+<MudPaper>
+        <MudDatePicker PickerVariant="PickerVariant.Static" Rounded="true" Elevation="12" Date="DateTime.Today" />
+</MudPaper>
+</div>
+
+@* <MudCarousel Class="mud-width-full" Style="height:200px; width:80%" AutoCycle="@autocycle" TData="object">
+
+    <MudCarouselItem Transition="transition" Color="@Color.Primary">
+        <div class="d-flex position-relative" style="height:100%; width:100%;">
+            <img src="https://docs.fohss.lk/storage/0dbd61057a19f1d42453a7ecc60d299c/0dbd61057a19f1d42453a7ecc60d299c/207c48c4885718c049c55e6ea58a0441.jpg" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+            <div class="position-absolute text-white" style="bottom:10px; left:10px; background:white; padding:5px 10px; border-radius:5px;">
+                Amantha
+            </div>
+        </div>
+    </MudCarouselItem>
+
+    <MudCarouselItem Transition="transition" Color="@Color.Secondary">
+        <div class="d-flex" style="height:100%; width:100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjo92OcdaC1p1Dk3wlYMPpC3G9aGow4ofDmUsxDvBDsTMStpPU7IrpSMvC7rHhcdnxmM&usqp=CAU" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition">
+        <div class="d-flex" style="height:100%; width:100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj4aRb3L0WiXE9y9AbOW1HU33lGPQlshGx-g&s" alt="Image 1" style="object-fit:cover; width:100%; height:100%;" />
+        </div>
+    </MudCarouselItem>
+</MudCarousel> *@
+
+@code {
+
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+
+    private HttpClient Http = new HttpClient();
+    private List<GetBatchResponse> _batches = new List<GetBatchResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModulesAsync();
+    }
+
+    private async Task LoadModulesAsync()
+    {
+        _batches = await Http.GetFromJsonAsync<List<GetBatchResponse>>($"https://localhost:7111/ApiGateWay/Request-api/Batch");
+    }
+
+    private void ViewModuleInformation(Guid batchId)
+    {
+        NavigationManager.NavigateTo($"/MentoringManagementPage/{batchId}");
+    }
+}
+
+<link rel="stylesheet" href="styles.css" />

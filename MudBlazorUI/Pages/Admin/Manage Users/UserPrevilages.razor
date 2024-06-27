@@ -6,7 +6,7 @@
 @using Newtonsoft.Json
 @inject IAdminService adminService
 
-
+@attribute [Authorize(Roles = "Admin")]
 
 
 <MudCard Elevation="0">

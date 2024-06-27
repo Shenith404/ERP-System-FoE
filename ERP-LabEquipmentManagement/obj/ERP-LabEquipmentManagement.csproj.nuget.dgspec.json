@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {}
+    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {}
   },
   "projects": {
-    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
+    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
+        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
         "projectName": "ERP-LabEquipmentManagement",
-        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
-        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
-        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\obj\\",
+        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
+        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
+        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

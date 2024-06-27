@@ -12,7 +12,7 @@
 
 
 
-<div style="display:flex;align-items:center;justify-content:center;margin-top:80px">
+<div style="display:flex;align-items:center;justify-content:center;margin-top:0px">
     
 
   
@@ -318,7 +318,7 @@
 
         await FetchDetails();
 
-      
+
     }
 
 
@@ -332,9 +332,9 @@
 
             if (form.IsValid)
             {
-              
-                
-              
+
+
+
                 _processing = false;
                 NavigationManager.NavigateTo("/");
             }
@@ -349,6 +349,7 @@
     private void logOut()
     {
         (authenticationStateProvider as CustomAuthenticationStateProvider)?.NotifyUserLogout();
+        NavigationManager.NavigateTo("/");
     }
 
 

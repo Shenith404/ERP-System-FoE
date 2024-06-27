@@ -1,0 +1,11 @@
+﻿@page "/RequestManagementTabs/BatchRequest/{batchId:guid}"
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+@using ERP_EvaluationManagement.RequestManagementPages.Pages
+<ViewBatchRequestPage BatchId="batchId"></ViewBatchRequestPage>
+
+@code
+{
+    [Parameter]
+    public Guid batchId { get; set; }
+
+}

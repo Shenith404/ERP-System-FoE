@@ -1,0 +1,95 @@
+@using System.Net.Http.Json
+@using ERP.EvaluationManagement.Core.DTOs.Responses
+@inject ISnackbar Snackbar
+
+@if (_responses != null && _responses.Any())
+{
+    <MudContainer>
+        <h2 class="result-header pb-3" style="color:black; text-align:center">Final Results Out Of 100</h2>
+        <MudTable Items="_displayData" Dense="true" Hover="true" Bordered="true" Striped="false">
+            <HeaderContent>
+                <MudTh>Registration Number</MudTh>
+                <MudTh>Full Name</MudTh>
+                @foreach (var evaluation in _evaluations)
+                {
+                    <MudTh>@evaluation</MudTh>
+                }
+                <MudTh>Total Marks of 100%</MudTh>
+            </HeaderContent>
+
+            <RowTemplate>
+                <MudTd>@context.RegistrationNum</MudTd>
+                <MudTd>@context.FullName</MudTd>
+                @foreach (var evaluation in _evaluations)
+                {
+                    <MudTd>
+                        @if (context.EvaluationScores.ContainsKey(evaluation))
+                        {
+                            @context.EvaluationScores[evaluation].ToString()
+                        }
+                    </MudTd>
+                }
+                <MudTd>@context.TotalMarks</MudTd>
+            </RowTemplate>
+        </MudTable>
+    </MudContainer>
+}
+else
+{
+    <p>No Results to Display</p>
+}
+
+@code {
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+    private List<GetAllEvaluationsMarksForModuleOfferingResponse> _responses = new List<GetAllEvaluationsMarksForModuleOfferingResponse>();
+    private List<string> _evaluations = new List<string>();
+    private List<StudentData> _displayData = new List<StudentData>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        try
+        {
+            _responses = await Http.GetFromJsonAsync<List<GetAllEvaluationsMarksForModuleOfferingResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{ModuleOfferingId}/allresults");
+
+            if (_responses != null && _responses.Count > 0)
+            {
+                // Get all unique evaluation names
+                _evaluations = _responses.SelectMany(r => r.EvaluationScores.Keys).Distinct().ToList();
+
+                // Group data by student name
+                var studentDict = _responses
+                    .GroupBy(r => r.FullName)
+                    .Select(group => new StudentData
+                    {
+                        RegistrationNum = group.First().RegistrationNum,
+                        FullName = group.Key,
+                        EvaluationScores = group.SelectMany(r => r.EvaluationScores).ToDictionary(k => k.Key, v => v.Value),
+                        TotalMarks = group.SelectMany(r => r.EvaluationScores.Values).Sum()
+                    })
+                    .ToList();
+
+                _displayData = studentDict;
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Error loading data: {ex.Message}", Severity.Error);
+        }
+    }
+
+    public class StudentData
+    {
+        public string RegistrationNum { get; set; }
+        public string FullName { get; set; }
+        public Dictionary<string, double> EvaluationScores { get; set; }
+        public double TotalMarks { get; set; }
+    }
+}

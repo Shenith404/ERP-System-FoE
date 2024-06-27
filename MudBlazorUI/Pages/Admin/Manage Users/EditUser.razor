@@ -4,7 +4,7 @@
 @using MudBlazorUI.Core.DTOs.Response
 @using Newtonsoft.Json
 @inject IAdminService adminService
-
+@attribute [Authorize(Roles = "Admin")]
 
 
 

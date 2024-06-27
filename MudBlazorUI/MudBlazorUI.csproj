@@ -29,6 +29,7 @@
 
     <Folder Include="Tests\" />
     <Folder Include="Services\" />
+    <Folder Include="wwwroot\exports\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ERP-EvaluationManagement\ERP-EvaluationManagement.csproj" />
     <ProjectReference Include="..\ERP-GraduateManagement\ERP-GraduateManagement.csproj" />
     <ProjectReference Include="..\ERP-LabEquipmentManagement\ERP-LabEquipmentManagement.csproj" />
     <ProjectReference Include="..\ERP-LabScheduleManagement\ERP-LabScheduleManagement.csproj" />

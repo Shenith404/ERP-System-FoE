@@ -1,0 +1,43 @@
+@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+
+@if (_students != null && _students.Any())
+{
+    <MudContainer Class="result-container">
+        <h2 class="result-header pb-3" style="color:black; text-align:center">Registered Students</h2>
+        <MudTable Items="@_students" Dense="true" Hover="true" Bordered="true" Striped="false">
+            <HeaderContent>
+                <MudTh>Reg Number</MudTh>
+                <MudTh>Name</MudTh>
+                <MudTh>Email</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Nr">@context.RegistrationNum</MudTd>
+                <MudTd DataLabel="Sign">@context.FullName</MudTd>
+                <MudTd DataLabel="Email">@context.Email</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager/>
+            </PagerContent>
+        </MudTable>
+
+    </MudContainer>
+}
+else
+{
+    <p>No students are enrolled in this module offering.</p>
+}
+
+@code {
+    [Parameter] 
+    public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+    private List<GetModuleOfferingStudentsResponse> _students = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _students = await Http.GetFromJsonAsync<List<GetModuleOfferingStudentsResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleRegistration/{ModuleOfferingId}/registrations");
+        
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ERP-WorkLoadManagement.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ERP-WorkLoadManagement.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ERP-WorkLoadManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ERP-WorkLoadManagement.props",
+      "PackagePath": "build\\ERP-WorkLoadManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ERP-WorkLoadManagement.props",
+      "PackagePath": "buildMultiTargeting\\ERP-WorkLoadManagement.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ERP-WorkLoadManagement.props",
+      "PackagePath": "buildTransitive\\ERP-WorkLoadManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

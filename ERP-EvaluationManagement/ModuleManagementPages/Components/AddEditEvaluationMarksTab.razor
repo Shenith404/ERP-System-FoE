@@ -1,0 +1,259 @@
+@using ERP_EvaluationManagement.DTOs.Requests
+@using ERP_EvaluationManagement.DTOs.Responses
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Net.Http.Json
+@using Microsoft.JSInterop
+@using System.Text.Json
+@using System.Text
+@using Newtonsoft.Json
+@using System.Net.Http.Headers
+@using Severity = MudBlazor.Severity
+@using System.Net
+@inject IJSRuntime JS
+@inject ISnackbar Snackbar
+
+
+
+<h1 class="result-header pb-3" style="color:black; text-align:center">Add/Edit Evaluation Marks</h1>
+    <MudCard>
+        <MudContainer>
+        <MudCardContent Class="border-solid border-2 mud-border-primary pa-4" Elevation="0" Style="height: 400px;  background-color: lightcyan;">
+                @if (_studentResults != null && _studentResults.Any())
+                {
+                <MudTable Items="@_studentResults" Dense="true" Hover="true" Bordered="true" Striped="false">
+                    <HeaderContent>
+                        <MudTh>Reg Number</MudTh>
+                        <MudTh>Name</MudTh>
+                        <MudTh>Marks</MudTh>
+                    </HeaderContent>
+                    <RowTemplate>
+                        <MudTd DataLabel="RegNo">@context.RegistrationNum</MudTd>
+                            <MudTd DataLabel="FullName">@context.FullName </MudTd>
+                            <MudTd DataLabel="Marks">@context.StudentScore</MudTd>
+                        </RowTemplate>
+                        <PagerContent>
+                            <MudTablePager />
+                        </PagerContent>
+                    </MudTable>
+                }
+                else
+                {
+                    <p>No marks have been added to the system.</p>
+                }
+            </MudCardContent>
+        </MudContainer>
+    <MudCardActions Style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            @if (_studentResults != null && _studentResults.Any())
+            {
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="ExportToExcel" StartIcon="@Icons.Material.Outlined.FileDownload" Style="margin-left: 16px;">Generate Excel</MudButton>
+            }
+            else
+            {
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddResults" Style="margin-left: 16px;">Generate Excel</MudButton>
+            }
+        </div>
+        <div style="display: flex; align-items: center;">
+            <InputFile class="pr-4 pl-0" OnChange="UploadFiles" Accept=".xlsx" />
+            <MudButton Class="m-3" Variant="Variant.Filled" Color="Color.Primary" Style="width:auto; height:40px; margin-right: 16px;" StartIcon="@Icons.Material.Filled.Save" OnClick="Save">Save</MudButton>
+        </div>
+    </MudCardActions>
+
+    </MudCard>
+
+
+@code {
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+    [Parameter]
+    public EventCallback onAdded { get; set; }
+
+    [Parameter]
+    public Guid EvaluationId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private IBrowserFile file;
+    private List<GetEvaluationResultListResponse> _studentResults = new();
+    private List<GetModuleOfferingStudentsResponse> _students = new();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await RefreshDataTable();
+        _students = await Http.GetFromJsonAsync<List<GetModuleOfferingStudentsResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleRegistration/{ModuleOfferingId}/registrations");
+    }
+    private async Task RefreshDataTable()
+    {
+        _studentResults = await Http.GetFromJsonAsync<List<GetEvaluationResultListResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{EvaluationId}/results");
+        StateHasChanged();
+    }
+
+    private async Task<string> GenerateExcelName()
+    {
+        try
+        {
+            var module = await Http.GetFromJsonAsync<GetModuleOfferingDetailsResponse>($"https://localhost:7111/ApiGateWay/Evaluation-api/ModuleOffering/{ModuleOfferingId}");
+            var evaluation = module.Evaluations.FirstOrDefault(e => e.EvaluationId == EvaluationId);
+            var fileName = $"{module.ModuleCode}_{evaluation.EvaluationName}_Results.xlsx";
+            return fileName;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while generating the Excel file name: {ex.Message}");
+            throw;
+        }
+    }
+
+    private async Task SaveExcelFile(byte[] fileContent, string fileName)
+    {
+        // Convert byte array to base64 string
+        var base64String = Convert.ToBase64String(fileContent);
+        await JS.InvokeVoidAsync("triggerFileDownload", fileName, base64String);
+    }
+
+    private async Task DownloadExcel(string fileName)
+    {
+        var fileURL = $"/exports/{fileName}";
+        await JS.InvokeVoidAsync("triggerFileDownload", fileName, fileURL);
+    }
+
+    private async Task ExportToExcel()
+    {
+        var response = await Http.GetAsync($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{ModuleOfferingId}/{EvaluationId}/exports/results", HttpCompletionOption.ResponseHeadersRead);
+        if (response.IsSuccessStatusCode)
+        {
+            try
+            {
+                var fileContent = await response.Content.ReadAsByteArrayAsync();
+                var fileName = await GenerateExcelName();
+                await SaveExcelFile(fileContent, fileName);
+                await DownloadExcel(fileName);
+                Console.WriteLine("DOne");
+            }
+            catch
+            {
+               
+            }
+        }
+        else
+        {
+            Console.WriteLine("Failed to download file: " + response.StatusCode);
+        }
+    }
+
+
+    private async Task UploadFiles(InputFileChangeEventArgs e)
+    {
+        file = e.File;
+    }
+
+    private async Task AddResults()
+    {
+        try
+        {  
+            var resultData = new
+            {
+                EvaluationId = EvaluationId,
+                ModuleOfferingId = ModuleOfferingId
+            };
+
+            var resultJson = JsonConvert.SerializeObject(resultData);
+
+            var request = new HttpRequestMessage
+                {
+                    Method = HttpMethod.Post,
+                    RequestUri = new Uri($"https://localhost:7111/ApiGateWay/Evaluation-api/StudentResult/{ModuleOfferingId}/{EvaluationId}"),
+                    Content = new StringContent(resultJson, Encoding.UTF8, "application/json")
+                };
+
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                await onAdded.InvokeAsync();
+                await RefreshDataTable();
+                if (_studentResults != null && _studentResults.Any())
+                {
+                    Snackbar.Add("Registered Students Added Successfully", Severity.Success);
+                    await ExportToExcel();
+                }
+                else
+                {
+                    Snackbar.Add("No student has enrolled to the Module", Severity.Warning);
+                }
+            }
+            else
+            {
+                Snackbar.Add($"Failed to create evaluation. Status code: {response.StatusCode}", Severity.Error);
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"An error occurred: {ex.Message}", Severity.Error);
+        }
+    }
+
+    private async Task Save()
+    {
+        try
+        {
+            if (file == null)
+            {
+                Snackbar.Add("No Excel file has been added.", Severity.Error);
+                return;
+            }
+            else
+            {
+                var client = new HttpClient
+                {
+                        BaseAddress = new("https://localhost:7111")
+                };
+
+                string fileName = file.Name;
+
+                await using var stream = file.OpenReadStream();
+                using var content = new MultipartFormDataContent();
+
+                content.Add(new StreamContent(stream), "formFile", fileName);
+
+                var response = await client.PutAsync($"ApiGateWay/Evaluation-api/StudentResult/{ModuleOfferingId}/{EvaluationId}/importexcel", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    RefreshDataTable();
+                    Snackbar.Add("Results Updated Successfully", Severity.Success);
+                }
+                else if (response.StatusCode == HttpStatusCode.NotAcceptable)
+                {
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    if (errorMessage.Contains("Marks are not in the valid range."))
+                    {
+                        Snackbar.Add("Failed to update results: Marks are not in the valid range.", Severity.Error);
+                    }
+                    else if (errorMessage.Contains("Uploaded file does not matched to this module."))
+                    {
+                        Snackbar.Add("Failed to update results: Uploaded file does not matched to this module.", Severity.Error);
+                    }
+                    else if (errorMessage.Contains("Uploaded file does not matched to this evaluation."))
+                    {
+                        Snackbar.Add("Failed to update results: Uploaded file does not matched to this evaluation.", Severity.Error);
+                    }
+                    else
+                    {
+                        Snackbar.Add("Failed to update results. Check the File again.", Severity.Error);
+                    }
+                }
+                else
+                {
+                    Snackbar.Add("Failed to update results. Check the File again.", Severity.Error);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"An error occurred: {ex.Message}", Severity.Error);
+        }
+    }
+}

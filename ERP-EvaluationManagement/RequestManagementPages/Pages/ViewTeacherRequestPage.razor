@@ -1,0 +1,209 @@
+﻿@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@inject NavigationManager NavigationManager
+
+@inject ISnackbar Snackbar
+
+@* @if (_teacherRequest != null)
+{
+    <div class="pt-4">
+        <h3> @_teacherRequest.Message </h3>
+    </div>
+
+    <div>
+        <button @onclick="() => ViewModuleInformation(_teacherRequest.RecieverId)">
+            Reply
+        </button>
+    </div>
+
+}
+else
+{
+    <p>Module offering information not found.</p>
+} *@
+
+@if (_teacherRequest != null)
+{
+    <MudPaper Elevation="4" Class="email-paper" Style="padding:15px;">
+        <MudPaper Class="d-flex justify-center mb-5" Elevation="0" Style="background-color:#e3f2fd;">
+            <h1 class="title">Outgoing Student Request</h1>
+        </MudPaper>
+
+        <MudPaper Class="p-5" Elevation="4" Style="background-color:#e3f2fd;">
+            <MudList Dense>
+                @* <h2 style="font-weight:bolder">
+                    Sender
+                </h2>
+                <MudListItem Icon="@Icons.Material.Filled.Circle" IconSize="Size.Small">
+                    @_teacherRequest.SenderName
+                </MudListItem> *@
+
+                <MudListItem>
+
+                        <MudListItemIcon Icon="@Icons.Material.Filled.Person" Color="Color.Primary" />
+                    <MudListItemText>
+                     <MudText Typo="Typo.h6" Class="header-text">
+                         <MudIcon Icon="@Icons.Material.Filled.Person" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px;" />
+                             Reciever : @_teacherRequest.RecieverName
+                     </MudText>
+                     @* <MudText Typo="Typo.body1" Style="margin-left: 35px;">@_studentRequest.SenderName</MudText> *@
+                    </MudListItemText>
+
+                </MudListItem>
+
+                <MudListItem>
+                    <MudListItemIcon Icon="@Icons.Material.Filled.Badge" Color="Color.Secondary" />
+                    <MudListItemText>
+                            <MudText Typo="Typo.h6" Class="header-text">
+                                <MudIcon Icon="@Icons.Material.Filled.AppRegistration" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px;" />
+                                Registration Number : @_teacherRequest.RecieverRegistrationNum
+                            </MudText>
+                            @* <MudText Typo="Typo.body1" Style="margin-left: 35px;">@_studentRequest.SenderRegistrationNum</MudText> *@
+                    </MudListItemText>
+                </MudListItem>
+
+
+                    <MudListItem>
+                        <MudText Typo="Typo.h6" Class="header-text">
+                            <MudIcon Icon="@Icons.Material.Filled.Topic" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px;" />
+                            Header : @GetTypeAsString(@_teacherRequest.Header)
+                    </MudText>
+                    @* <MudText Typo="Typo.body1" Style="margin-left: 35px;">@GetTypeAsString(@_studentRequest.Header)</MudText> *@
+
+                </MudListItem>
+
+
+                <MudDivider DividerType="DividerType.Middle" Class="my-6" />
+
+                <MudListItem>
+                    <MudListItemIcon Icon="@Icons.Material.Filled.Message" Color="Color.Warning" />
+                    <MudListItemText>
+                        <MudText Typo="Typo.h6" Class="header-text">
+                            <MudIcon Icon="@Icons.Material.Filled.Message" Color="Color.Primary" Style="vertical-align: middle; margin-right: 4px;" />
+                            Message
+                        </MudText>
+                        <MudText Typo="Typo.body1" Style="margin-left: 35px;">@_teacherRequest.Message</MudText>
+                    </MudListItemText>
+                </MudListItem>
+
+                </MudList>
+            </MudPaper>
+
+            @* <div class="reply-button mt-5">
+                <MudButton Variant="Variant.Filled" StartIcon="@Icons.Material.Outlined.Reply" Color="Color.Primary" @onclick="() => ViewModuleInformation(_teacherRequest.SenderId)">
+                    Reply
+                </MudButton>
+            </div> *@
+    </MudPaper>
+}
+else
+{
+    <p>Module offering information not found.</p>
+}
+
+<style>
+    .email-paper {
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+
+    .title {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #594AE2;
+    }
+
+    .header-text {
+        font-weight: 400;
+        color: #424242;
+    }
+
+    .message-text {
+        color: #616161;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .mt-5 {
+        margin-top: 2rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 2rem;
+    }
+
+    .p-5 {
+        padding: 2rem;
+    }
+
+    .my-4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+</style>
+
+
+@code {
+
+    [Parameter]
+    public Guid RequestId { get; set; }
+    [Parameter]
+    public Guid SenderId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+
+    private GetTeacherMessagesResponse? _teacherRequest;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadModuleOfferingInfoAsync(RequestId);
+    }
+
+    private async Task LoadModuleOfferingInfoAsync(Guid requestId)
+    {
+        try
+        {
+            _teacherRequest = await Http.GetFromJsonAsync<GetTeacherMessagesResponse>($"https://localhost:7111/ApiGateWay/Request-api/TeacherRequest/{requestId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading module offering: {ex.Message}");
+        }
+    }
+
+    private void ViewModuleInformation(Guid recieverId)
+    {
+        NavigationManager.NavigateTo($"/RequestManagementTabs/RequestCreate/{recieverId}");
+    }
+
+    private string GetTypeAsString(int type)
+    {
+        switch (type)
+        {
+            case 1:
+                return "Module Related";
+            case 2:
+                return "Medical";
+            case 3:
+                return "Academic Advise";
+            case 4:
+                return "Late Submissions";
+            case 5:
+                return "Other";
+            default:
+                return "Unknown";
+        }
+    }
+
+}
+

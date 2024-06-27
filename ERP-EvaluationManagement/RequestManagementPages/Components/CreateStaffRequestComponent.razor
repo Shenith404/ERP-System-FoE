@@ -1,0 +1,165 @@
+﻿@using FluentValidation
+@using ERP_EvaluationManagement.DTOs.Requests
+@using Newtonsoft.Json
+@using System.Text
+@using Severity = MudBlazor.Severity
+@inject ISnackbar Snackbar
+
+
+<MudContainer Class="result-container">
+    <MudCard Class="mud-card">
+        <MudForm Model="@staffRequest" @ref="@form" Validation="@(evaluationValidator.ValidateValue)"
+                 ValidationDelay="0">
+
+            <div style="display: flex; gap: 16px;">
+
+                <MudPaper Class="pl-6 pt-5 pb-5 pr-5" Elevation="4" Style="@($"background:{Colors.LightBlue.Lighten5}; width: 30%; height: auto;")">
+                    <img src="https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&farmid=192982&inputFormat=png&cs=MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDQ4MTcxMGE0fFNQTw&docid=https%3A%2F%2Fmy.microsoftpersonalcontent.com%2F_api%2Fv2.0%2Fdrives%2Fb!udc9tdL7v0ev5nkdyOjBYVdRYHFt3ypMiI2pr-ba0V06aRxfBWEaSa-wvvkKCwgy%2Fitems%2F01B7ID7C4WBJSZNLNN4FHLSLKFNWSRR453%3Ftempauth%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBpZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDA0ODE3MTBhNCIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDAwMDMwMDAwMmQ2Y2M0OWRAbGl2ZS5jb20iLCJlbmRwb2ludHVybCI6IjdScFZCa3dKbW5PSXVaSmozMENKU0ZnQ0pZcnpEWDBiRUNabEIwaGhCV2c9IiwiZW5kcG9pbnR1cmxMZW5ndGgiOiIxNjQiLCJleHAiOiIxNzE5MTg3MjAwIiwiaXBhZGRyIjoiMjAzLjE4OS4xODQuMTA3IiwiaXNsb29wYmFjayI6IlRydWUiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNzE5MTY1NjAwIiwicHVpZCI6IjAwMDMwMDAwMkQ2Q0M0OUQiLCJzY3AiOiJhbGxzaXRlcy5mdWxsY29udHJvbCIsInNpZCI6IjE2NDAwNTgzNDc0MjkwNTM5OTY4Iiwic2l0ZWlkIjoiWWpVelpHUTNZamt0Wm1Ka01pMDBOMkptTFdGbVpUWXROemt4WkdNNFpUaGpNVFl4IiwidGlkIjoiOTE4ODA0MGQtNmM2Ny00YzViLWIxMTItMzZhMzA0YjY2ZGFkIiwidHQiOiIyIiwidXBuIjoieWFzaW5kdWFtYW50aGExMEBnbWFpbC5jb20iLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIn0.08m0VpmXNhSnQ5PkYBGUPtxEqD1JnEMKTkvjV0Ley6w%26version%3DPublished&cb=63854764575&encodeFailures=1&width=1920&height=809" alt="Placeholder Image" style=" width: 300px; height: 300px;" />
+                </MudPaper>
+
+                <MudPaper Style="@($"background:{Colors.LightBlue.Lighten5}; width: 70%; height: auto; padding: 16px;")">
+                    <MudCardContent Class="mud-card-content">
+
+                        <h1 class="result-header pb-3" style="color:black; text-align:center">Make Request</h1>
+
+                        @* <div style="display: flex; gap: 16px;"> *@
+                        <MudPaper Style="@($"background:{Colors.LightBlue.Lighten5}; width: 100%; height: auto; padding: 16px;")">
+
+                            <MudSelect T="int" @bind-Value="staffRequest.Header" Label="Header">
+                                <MudSelectItem Value="1">Module Related</MudSelectItem>
+                                <MudSelectItem Value="2">Medical</MudSelectItem>
+                                <MudSelectItem Value="3">Academic Advisee</MudSelectItem>
+                                <MudSelectItem Value="4">Late Submissions</MudSelectItem>
+                                <MudSelectItem Value="5">Other</MudSelectItem>
+                            </MudSelect>
+
+                            <MudTextField @bind-Value="staffRequest.Message"
+                                          For="@(() => staffRequest.Message)"
+                                          Immediate="true"
+                                          Label="Message" />
+
+                            <MudCardActions Class="mud-card-actions">
+                                <MudButton Variant="Variant.Filled"
+                                           Color="Color.Primary"
+                                           Style="margin-left: 0px;"
+                                           Class="mud-button-add" StartIcon="@Icons.Material.Outlined.Send"
+                                           OnClick="@(async () => await Submit())">Send</MudButton>
+                            </MudCardActions>
+
+                            @* <MudTextArea @bind="staffRequest.Message"
+                            For="@(() => staffRequest.Message)"
+                            Immediate="true"
+                            Label="Message"
+                            Rows="5" /> *@
+
+
+
+                        </MudPaper>
+
+
+                        @* <MudPaper Style="@($"background:{Colors.LightBlue.Lighten5}; width: 30%;")">
+                        <img src="https://cdn-icons-png.flaticon.com/256/9821/9821106.png" alt="Placeholder Image" style=" width: 300px; height: 300px;" />
+                        </MudPaper> *@
+                        @* </div> *@
+
+                    </MudCardContent>
+                </MudPaper>
+            </div>
+
+            @* <MudCardActions Class="mud-card-actions">
+            <MudButton Variant="Variant.Filled"
+            Color="Color.Primary"
+            Style="margin-left: 16px;"
+            Class="mud-button-add" StartIcon="@Icons.Material.Outlined.Send"
+            OnClick="@(async () => await Submit())">Send</MudButton>
+            </MudCardActions> *@
+
+        </MudForm>
+    </MudCard>
+</MudContainer>
+@code {
+    [Parameter]
+    public Guid SenderId { get; set; }
+    [Parameter]
+    public EventCallback onAdded { get; set; }
+
+    public String teacherId = "af8ad6c4-46f2-4bf8-9628-9cf34e122893";
+
+    private CreateStaffMessageRequest staffRequest = new CreateStaffMessageRequest();
+
+    private HttpClient Http = new HttpClient();
+
+    EvaluationModelValidator evaluationValidator = new EvaluationModelValidator();
+    MudForm form;
+
+    public class EvaluationModelValidator : AbstractValidator<CreateStaffMessageRequest>
+    {
+        public EvaluationModelValidator()
+        {
+            RuleFor(x => x.Message)
+                .NotEmpty();
+
+            RuleFor(x => x.Header)
+                .InclusiveBetween(1, 5);
+
+        }
+
+        public Func<object, string, Task<IEnumerable<string>>> ValidateValue => async (staffRequest, propertyName) =>
+        {
+            var result = await ValidateAsync(ValidationContext<CreateStaffMessageRequest>
+                                .CreateWithOptions((CreateStaffMessageRequest)staffRequest, x => x.IncludeProperties(propertyName)));
+            if (result.IsValid)
+                return Array.Empty<string>();
+            return result.Errors.Select(e => e.ErrorMessage);
+        };
+    }
+
+    private async Task Submit()
+    {
+
+        await form.Validate();
+
+        if (form.IsValid)
+        {
+            try
+            {
+                // Prepare the evaluation data to be sent to the API
+                var evaluationData = new
+                {
+                    Message = staffRequest.Message,
+                    Header = staffRequest.Header,
+                };
+
+                // Convert the evaluation data to JSON
+                var evaluationJson = JsonConvert.SerializeObject(evaluationData);
+
+                // Set up the request message
+                var request = new HttpRequestMessage
+                    {
+                        Method = HttpMethod.Post,
+                        RequestUri = new Uri($"https://localhost:7111/ApiGateWay/Request-api/StaffRequest/{teacherId}/{SenderId}"),
+                        Content = new StringContent(evaluationJson, Encoding.UTF8, "application/json")
+                    };
+
+                // Send the request and await the response
+                var response = await Http.SendAsync(request);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    await onAdded.InvokeAsync();
+                }
+                else
+                {
+                    Console.WriteLine($"Failed to create evaluation. Status code: {response.StatusCode}");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+    }
+
+
+}

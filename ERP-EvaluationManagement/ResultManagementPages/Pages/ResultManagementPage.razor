@@ -1,0 +1,11 @@
+﻿@using ERP_EvaluationManagement.ResultManagementPages.Components
+
+<DisplayEvaluationResults EvaluationId="EvaluationId"></DisplayEvaluationResults>
+
+@code {
+    [Parameter]
+    public Guid ModuleOfferingId { get; set; }
+
+    [Parameter]
+    public Guid EvaluationId { get; set; }
+}

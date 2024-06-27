@@ -7,7 +7,7 @@
 
 
 
-<div class="page">
+<div class="page" style="margin-top:-65px">
     <MudLayout>
         <div style="background-image: url('Assets/background-login.png'); background-size: cover; background-position: center; height: 430px; width: 100%; position: relative;">
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
@@ -33,7 +33,7 @@
                         <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code5" MaxLength="1" />
                         <MudTextField Style="@($"color: {Colors.Grey.Lighten1}; background-color: {Colors.Shades.White}; margin-right: 5px;")" Variant="Variant.Outlined" @bind-Value="Code6" MaxLength="1" />
                     </div>
-                    <div class="code-button">
+                    <div class="code-button" style="margin-left:-10px">
                         <MudButton @onclick="Verify" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Class="verify-button">
                             Verify
                         </MudButton>

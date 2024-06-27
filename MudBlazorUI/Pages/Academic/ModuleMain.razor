@@ -1,0 +1,25 @@
+@page "/ModuleManagementTabs"
+@using ERP_EvaluationManagement.ModuleManagementPages.Pages
+@using System.Security.Claims
+@using Microsoft.IdentityModel.JsonWebTokens
+@attribute [Authorize(Roles = "Admin,Staff,Lecture")]
+<ModuleManagementTabs Email="Email" />
+
+
+@code{
+    private string Email { get; set; }
+
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+
+        Email = await store.GetItemAsStringAsync("Email");
+        Console.WriteLine("Email is "+Email);
+        await base.OnInitializedAsync();
+
+
+    }
+
+}

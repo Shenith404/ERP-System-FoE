@@ -1,0 +1,99 @@
+@using ERP_EvaluationManagement.DTOs.Responses
+@using System.Net.Http.Json
+@using ERP.EvaluationManagement.Core.DTOs.Requests
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+@inject NavigationManager NavigationManager
+@inject IDialogService Dialog
+
+
+<style>
+    .my-custom-class {
+        backdrop-filter: blur(10px);
+    }
+</style>
+
+
+@if (_evaluations != null && _evaluations.Any())
+{
+    <MudContainer>
+        <MudTable Items="@_evaluations" Dense="true" Hover="true" Bordered="true" Striped="false">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Type</MudTh>
+                <MudTh>Out of Final Marks</MudTh>
+                <MudTh>Total Marks Given</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">
+                    <MudButton OnClick="@(() => ViewEvaluationInformation(ModuleOfferingId, @context.EvaluationId))"><b><ul style="text-decoration: underline;">@context.EvaluationName</ul></b></MudButton>
+                </MudTd>
+                <MudTd DataLabel="Type">@GetTypeAsString(context.EvaluationType)</MudTd>
+                <MudTd DataLabel="Out of Final Marks">@context.EvaluationFinalMarks</MudTd>
+                <MudTd DataLabel="Total Marks Given">@context.EvaluationMarks</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </MudContainer>
+}
+else
+{
+    <p>No Evaluations to Display</p>
+}
+
+@code {
+
+    DialogOptions topCenter = new DialogOptions() { Position = DialogPosition.TopCenter };
+
+    [Parameter] public Guid ModuleOfferingId { get; set; }
+
+    private HttpClient Http = new HttpClient();
+    private List<GetEvaluationDetailsResponse> _evaluations = new List<GetEvaluationDetailsResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEvaluationsAsync();
+    }
+
+    private async Task LoadEvaluationsAsync()
+    {
+        try
+        {
+            _evaluations = await Http.GetFromJsonAsync<List<GetEvaluationDetailsResponse>>($"https://localhost:7111/ApiGateWay/Evaluation-api/Evaluation/{ModuleOfferingId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading evaluations: {ex.Message}");
+        }
+    }
+
+    private void ViewEvaluationInformation(Guid moduleOfferingId, Guid evaluationId)
+    {
+        NavigationManager.NavigateTo($"/ModuleManagementTabs/{moduleOfferingId}/{evaluationId}");
+    }
+    
+    private string GetTypeAsString(int type)
+    {
+        switch (type)
+        {
+            case 1:
+                return "Inclass";
+            case 2:
+                return "Quiz";
+            case 3:
+                return "Assignment";
+            case 4:
+                return "Take Home";
+            case 5:
+                return "Other";
+            case 6:
+                return "End Exam";
+            default:
+                return "Unknown";
+        }
+    }
+
+}
+  
