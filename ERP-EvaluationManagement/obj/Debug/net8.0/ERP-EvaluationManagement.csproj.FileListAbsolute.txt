@@ -20,3 +20,25 @@ E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ER
 E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\refint\ERP-EvaluationManagement.dll
 E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.pdb
 E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ref\ERP-EvaluationManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\bin\Debug\net8.0\ERP-EvaluationManagement.staticwebassets.runtime.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\bin\Debug\net8.0\ERP-EvaluationManagement.deps.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\bin\Debug\net8.0\ERP-EvaluationManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\bin\Debug\net8.0\ERP-EvaluationManagement.pdb
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.csproj.AssemblyReference.cache
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.AssemblyInfoInputs.cache
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.AssemblyInfo.cs
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.csproj.CoreCompileInputs.cache
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.sourcelink.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets.build.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets.development.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets\msbuild.ERP-EvaluationManagement.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.ERP-EvaluationManagement.props
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ERP-EvaluationManagement.props
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ERP-EvaluationManagement.props
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\scopedcss\bundle\ERP-EvaluationManagement.styles.css
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\refint\ERP-EvaluationManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ERP-EvaluationManagement.pdb
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\obj\Debug\net8.0\ref\ERP-EvaluationManagement.dll

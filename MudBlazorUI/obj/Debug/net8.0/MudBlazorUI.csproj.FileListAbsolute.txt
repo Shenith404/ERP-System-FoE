@@ -3940,3 +3940,18 @@ E:\University\GitHub\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\webcil\ERP-Eval
 E:\University\GitHub\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\9hly6wn2sa.gz
 E:\University\GitHub\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\wriu16nwsw.gz
 E:\University\GitHub\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\80t4ajwdt0.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\ERP-EvaluationManagement.pdb
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\ERP-EvaluationManagement.wasm
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\Quill.Delta.wasm
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\ERP-EvaluationManagement.wasm.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\Quill.Delta.wasm.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\wwwroot\_framework\ERP-EvaluationManagement.pdb.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\ERP-EvaluationManagement.staticwebassets.runtime.json
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\Quill.Delta.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\ERP-EvaluationManagement.dll
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\bin\Debug\net8.0\ERP-EvaluationManagement.pdb
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\webcil\Quill.Delta.wasm
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\webcil\ERP-EvaluationManagement.wasm
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\u54wzgp139.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\88x49d0n55.gz
+E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\MudBlazorUI\obj\Debug\net8.0\compressed\zmwbl8hgru.gz

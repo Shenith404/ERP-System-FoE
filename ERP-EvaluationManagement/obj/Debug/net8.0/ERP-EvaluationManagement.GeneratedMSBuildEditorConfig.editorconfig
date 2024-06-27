@@ -9,191 +9,191 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = ERP_EvaluationManagement
 build_property.RootNamespace = ERP_EvaluationManagement
-build_property.ProjectDir = E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement\
+build_property.ProjectDir = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\University\GitHub\ERP-System-FoE\ERP-EvaluationManagement
+build_property.MSBuildProjectDirectory = E:\Campus\Semester 06\Projects\ERP_ALL\ERP-System-FoE\ERP-EvaluationManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/MentoringManagementPages/Components/DisplayBatchList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/MentoringManagementPages/Components/DisplayBatchList.razor]
 build_metadata.AdditionalFiles.TargetPath = TWVudG9yaW5nTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUJhdGNoTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/MentoringManagementPages/Pages/DisplayAcademicAdvicees.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/MentoringManagementPages/Pages/DisplayAcademicAdvicees.razor]
 build_metadata.AdditionalFiles.TargetPath = TWVudG9yaW5nTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXERpc3BsYXlBY2FkZW1pY0FkdmljZWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/AddEditEvaluationMarksTab.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/AddEditEvaluationMarksTab.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcQWRkRWRpdEV2YWx1YXRpb25NYXJrc1RhYi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/AddEvaluationComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/AddEvaluationComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcQWRkRXZhbHVhdGlvbkNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/ConfirmEvaluationDeleteDialog.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/ConfirmEvaluationDeleteDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcQ29uZmlybUV2YWx1YXRpb25EZWxldGVEaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayAllResultsComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayAllResultsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUFsbFJlc3VsdHNDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationInformation.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationInformation.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUV2YWx1YXRpb25JbmZvcm1hdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUV2YWx1YXRpb25MaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationResultList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayEvaluationResultList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUV2YWx1YXRpb25SZXN1bHRMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayStudentList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/DisplayStudentList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheVN0dWRlbnRMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/EditEvaluationdialog.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/EditEvaluationdialog.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRWRpdEV2YWx1YXRpb25kaWFsb2cucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/FirstExaminerModuleList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/FirstExaminerModuleList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRmlyc3RFeGFtaW5lck1vZHVsZUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/FirstExaminer/FE_DisplayEvaluationList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/FirstExaminer/FE_DisplayEvaluationList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRmlyc3RFeGFtaW5lclxGRV9EaXNwbGF5RXZhbHVhdGlvbkxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/ModuleListComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/ModuleListComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcTW9kdWxlTGlzdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/SecondExaminerModuleList.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Components/SecondExaminerModuleList.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcU2Vjb25kRXhhbWluZXJNb2R1bGVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/EvaluationManagementPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/EvaluationManagementPage.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXEV2YWx1YXRpb25NYW5hZ2VtZW50UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/FirstExaminerModuleOfferingInformation.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/FirstExaminerModuleOfferingInformation.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXEZpcnN0RXhhbWluZXJNb2R1bGVPZmZlcmluZ0luZm9ybWF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/ModuleManagementTabs.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/ModuleManagementTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXE1vZHVsZU1hbmFnZW1lbnRUYWJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/ModuleOfferingInformation.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/ModuleOfferingInformation.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXE1vZHVsZU9mZmVyaW5nSW5mb3JtYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/SecondExaminerModuleOfferingInformation.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ModuleManagementPages/Pages/SecondExaminerModuleOfferingInformation.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlTWFuYWdlbWVudFBhZ2VzXFBhZ2VzXFNlY29uZEV4YW1pbmVyTW9kdWxlT2ZmZXJpbmdJbmZvcm1hdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/MyMudProviders.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/MyMudProviders.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRQcm92aWRlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/MyMudThemeProvider.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/MyMudThemeProvider.razor]
 build_metadata.AdditionalFiles.TargetPath = TXlNdWRUaGVtZVByb3ZpZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/CreateStaffRequestComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/CreateStaffRequestComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXENyZWF0ZVN0YWZmUmVxdWVzdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/CreateTeacherRequestComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/CreateTeacherRequestComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXENyZWF0ZVRlYWNoZXJSZXF1ZXN0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayIncomingStaffRequests.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayIncomingStaffRequests.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXERpc3BsYXlJbmNvbWluZ1N0YWZmUmVxdWVzdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayOutgoingStaffRequests.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayOutgoingStaffRequests.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXERpc3BsYXlPdXRnb2luZ1N0YWZmUmVxdWVzdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayStudentRequests.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayStudentRequests.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXERpc3BsYXlTdHVkZW50UmVxdWVzdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayTeacherRequests.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/DisplayTeacherRequests.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXERpc3BsYXlUZWFjaGVyUmVxdWVzdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/MakeRequestComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/MakeRequestComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXE1ha2VSZXF1ZXN0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/MakeStaffRequestComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Components/MakeStaffRequestComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xDb21wb25lbnRzXE1ha2VTdGFmZlJlcXVlc3RDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/RequestManagementTabs.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/RequestManagementTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xSZXF1ZXN0TWFuYWdlbWVudFRhYnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewBatchRequestPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewBatchRequestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xWaWV3QmF0Y2hSZXF1ZXN0UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewIncomingStaffRequestPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewIncomingStaffRequestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xWaWV3SW5jb21pbmdTdGFmZlJlcXVlc3RQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewOutgoingStaffRequestPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewOutgoingStaffRequestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xWaWV3T3V0Z29pbmdTdGFmZlJlcXVlc3RQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewStudentRequestPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewStudentRequestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xWaWV3U3R1ZGVudFJlcXVlc3RQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewTeacherRequestPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/RequestManagementPages/Pages/ViewTeacherRequestPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVxdWVzdE1hbmFnZW1lbnRQYWdlc1xQYWdlc1xWaWV3VGVhY2hlclJlcXVlc3RQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/DisplayEvaluationListForResults.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/DisplayEvaluationListForResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUV2YWx1YXRpb25MaXN0Rm9yUmVzdWx0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/DisplayEvaluationResults.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/DisplayEvaluationResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRGlzcGxheUV2YWx1YXRpb25SZXN1bHRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/FirstExaminarModuleListResultComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/FirstExaminarModuleListResultComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcRmlyc3RFeGFtaW5hck1vZHVsZUxpc3RSZXN1bHRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/ModuleListForResultComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/ModuleListForResultComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcTW9kdWxlTGlzdEZvclJlc3VsdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/SecondExaminarModuleListResultComponent.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Components/SecondExaminarModuleListResultComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXENvbXBvbmVudHNcU2Vjb25kRXhhbWluYXJNb2R1bGVMaXN0UmVzdWx0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ModuleOfferingInformationForResults.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ModuleOfferingInformationForResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXFBhZ2VzXE1vZHVsZU9mZmVyaW5nSW5mb3JtYXRpb25Gb3JSZXN1bHRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ResultManagementPage.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ResultManagementPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXFBhZ2VzXFJlc3VsdE1hbmFnZW1lbnRQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ResultManagementTabs.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/ResultManagementPages/Pages/ResultManagementTabs.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVzdWx0TWFuYWdlbWVudFBhZ2VzXFBhZ2VzXFJlc3VsdE1hbmFnZW1lbnRUYWJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/University/GitHub/ERP-System-FoE/ERP-EvaluationManagement/_Imports.razor]
+[E:/Campus/Semester 06/Projects/ERP_ALL/ERP-System-FoE/ERP-EvaluationManagement/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

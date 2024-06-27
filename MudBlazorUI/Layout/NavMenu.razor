@@ -28,10 +28,10 @@
 
         @* dept *@
 
-        <AuthorizeView Roles="Admin,Staff,Lecture">
-            <Authorized >
+@*         <AuthorizeView Roles="Admin,Staff,Lecture">
+            <Authorized > *@
                 <MudNavGroup Title="Department" Icon="@Icons.Material.Filled.PeopleOutline" IconColor="Color.Primary">
-                    <MudNavLink Href="/department/graduates" Icon="@Icons.Material.Filled.Man" IconColor="Color.Primary">Graduates</MudNavLink>
+                    <MudNavLink Href="/department/alumni" Icon="@Icons.Material.Filled.Man" IconColor="Color.Primary">Alumni</MudNavLink>
                     <MudNavGroup Title="Laboratory" Icon="@Icons.Material.Filled.Science" IconColor="Color.Primary">
                         <MudNavLink Href="/department/labEquipments" Icon="@Icons.Material.Filled.Inventory" IconColor="Color.Primary">Lab Equipments</MudNavLink>
                         <MudNavLink Href="/department/labSchedules" Icon="@Icons.Material.Filled.Schedule" IconColor="Color.Primary">Laboratory Schedules</MudNavLink>
@@ -42,8 +42,8 @@
                         <MudNavLink Href="/department/assignwork" Icon="@Icons.Material.Filled.AssignmentInd" IconColor="Color.Primary">Assign Work</MudNavLink>
                     </MudNavGroup>
                 </MudNavGroup>
-            </Authorized>
-        </AuthorizeView>
+@*             </Authorized>
+        </AuthorizeView> *@
 
         @* Academic *@
         <AuthorizeView Roles="Admin,Staff,Lecture">

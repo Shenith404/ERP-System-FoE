@@ -18,9 +18,12 @@
                     <MudItem xs="12">
                         <MudSelect Label="Work" @bind-Value="@model.WorkId" Required="true">
                             <MudSelectItem Value="Guid.Empty">Please select a work</MudSelectItem>
-                            @foreach (var work in workList)
+                            @if (moduleCoordinatorWorks != null)
                             {
-                                <MudSelectItem Value="@work.WorkId">@work.WorkName</MudSelectItem>
+                                @foreach (var work in moduleCoordinatorWorks)
+                                {
+                                    <MudSelectItem Value="@work.WorkId">@work.WorkName</MudSelectItem>
+                                }
                             }
                         </MudSelect>
                     </MudItem>
@@ -28,9 +31,12 @@
                     <MudItem xs="12">
                         <MudSelect Label="Staff" @bind-Value="@model.StaffId" Required="true">
                             <MudSelectItem Value="Guid.Empty">Please select a staff member</MudSelectItem>
-                            @foreach (var staff in staffList)
+                            @if (staffList != null)
                             {
-                                <MudSelectItem Value="@staff.StaffId">@staff.EmployeeName</MudSelectItem>
+                                @foreach (var staff in staffList)
+                                {
+                                    <MudSelectItem Value="@staff.StaffId">@staff.EmployeeName</MudSelectItem>
+                                }
                             }
                         </MudSelect>
                     </MudItem>
@@ -46,9 +52,12 @@
                     <MudItem xs="12">
                         <MudSelect Label="Assign By" @bind-Value="@model.AssignByUserId" Required="true">
                             <MudSelectItem Value="Guid.Empty">Please select a user</MudSelectItem>
-                            @foreach (var user in userList)
+                            @if (userList != null)
                             {
-                                <MudSelectItem Value="@user.UserId">@user.UserName</MudSelectItem>
+                                @foreach (var user in userList)
+                                {
+                                    <MudSelectItem Value="@user.UserId">@user.UserName</MudSelectItem>
+                                }
                             }
                         </MudSelect>
                     </MudItem>
@@ -98,7 +107,6 @@
         {
             if (form.IsValid)
             {
-             
                 var jsonmodel = JsonSerializer.Serialize(model);
                 var content = new StringContent(jsonmodel, Encoding.UTF8, "application/json");
                 var response = await Http.PostAsync("https://localhost:7111/ApiGateWay/WorkLoad-api/AssignWork/Add", content);
@@ -127,6 +135,7 @@
 
     private List<GetWorkResponse> workList = new List<GetWorkResponse>();
     private List<GetStaffResponse> staffList = new List<GetStaffResponse>();
+    private List<GetWorkResponse> moduleCoordinatorWorks = new List<GetWorkResponse>();
 
     protected override async Task OnInitializedAsync()
     {
@@ -134,11 +143,16 @@
         {
             workList = await Http.GetFromJsonAsync<List<GetWorkResponse>>("https://localhost:7111/ApiGateWay/WorkLoad-api/Work/Get");
             staffList = await Http.GetFromJsonAsync<List<GetStaffResponse>>("https://localhost:7111/ApiGateWay/WorkLoad-api/Staff/Get");
+
+            // Filter workList for WorkType "Module Coordinator"
+            moduleCoordinatorWorks = workList.Where(work => work.WorkType == "Module Coordinator").ToList();
         }
         catch (Exception ex)
         {
-            workList = null;
-            staffList = null;
+            workList = new List<GetWorkResponse>();
+            staffList = new List<GetStaffResponse>();
+            moduleCoordinatorWorks = new List<GetWorkResponse>();
+            Snackbar.Add($"Error fetching data: {ex.Message}", MudBlazor.Severity.Error);
         }
     }
 
@@ -149,4 +163,3 @@
         (Guid.NewGuid(), "User C")
     };
 }
-

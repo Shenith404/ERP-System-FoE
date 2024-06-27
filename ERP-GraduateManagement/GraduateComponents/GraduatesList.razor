@@ -6,7 +6,7 @@
 @inject ISnackbar Snackbar
 
 
-@if(_graduates.Count>0)
+@if (_graduates.Count > 0)
 {
     <MudTable Items="@_graduates">
         <HeaderContent>
@@ -30,10 +30,10 @@
                                 StartIcon="@Icons.Material.Filled.Delete" Size="Size.Small" />
                     </div>
                 </MudTd>
-        </RowTemplate>
-    <PagerContent>
-        <MudTablePager />
-    </PagerContent>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
 
         </MudTable>
 }
@@ -46,15 +46,15 @@ else
 
 
 <MudMessageBox @ref="mbox" Title="Warning" CancelText="Cancel">
-        <MessageContent>
-            Are You Sure to Delete This Graduate!
-        </MessageContent>
-        <YesButton>
-            <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.DeleteForever">Delete!</MudButton>
-        </YesButton>
+    <MessageContent>
+        Are You Sure to Delete This Graduate!
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.DeleteForever">Delete!</MudButton>
+    </YesButton>
 </MudMessageBox>
 
-    @code {
+@code {
     private string buttonGroupStyle = "display: flex; gap: 8px;";
 
 
@@ -73,7 +73,7 @@ else
         {
             _graduates = await Http.GetFromJsonAsync<List<GetGraduateResponse>>("https://localhost:7111/ApiGateWay/Graduate-api/Graduates/Get");
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             _graduates = null;
         }
@@ -92,28 +92,28 @@ else
                 CloseButton = true
             };
 
-        var dialog = await DialogService.ShowAsync <GraduateProfileDialog> ("Graduate Profile", parameters, options);
-     
+        var dialog = await DialogService.ShowAsync<GraduateProfileDialog>("Graduate Profile", parameters, options);
+
     }
 
 
     async Task EditGraduate(Guid graduateId)
     {
-        var parameters = new DialogParameters<EditGraduateDialog> { {x => x.graduateId, graduateId } };
+        var parameters = new DialogParameters<EditGraduateDialog> { { x => x.graduateId, graduateId } };
 
         var options = new DialogOptions
-        {
+            {
                 MaxWidth = MaxWidth.ExtraSmall,
                 FullWidth = true,
                 Position = DialogPosition.CenterLeft,
                 CloseOnEscapeKey = true,
                 CloseButton = true
-        };
+            };
 
-        var dialog = await DialogService.ShowAsync<EditGraduateDialog>("Save", parameters,options);
+        var dialog = await DialogService.ShowAsync<EditGraduateDialog>("Save", parameters, options);
         var result = await dialog.Result;
 
-        if(!result.Canceled)
+        if (!result.Canceled)
         {
             _graduates = await Http.GetFromJsonAsync<List<GetGraduateResponse>>("https://localhost:7111/ApiGateWay/Graduate-api/Graduates/Get");
         }
@@ -125,10 +125,10 @@ else
     {
         bool? result = await mbox.Show();
         if (result == true)
-        {            
+        {
             var response = await Http.DeleteAsync($"https://localhost:7111/ApiGateWay/Graduate-api/Graduates/{graduateId}");
 
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 Snackbar.Add("Graduate Deleted Successfully", Severity.Success);
                 _graduates = await Http.GetFromJsonAsync<List<GetGraduateResponse>>("https://localhost:7111/ApiGateWay/Graduate-api/Graduates/Get");
@@ -145,8 +145,8 @@ else
             Snackbar.Add("Graduate is Not Deleted", Severity.Info);
         }
 
-        
+
     }
 
-    
+
 }

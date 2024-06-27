@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj": {}
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj": {}
   },
   "projects": {
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj",
         "projectName": "ERP-EvaluationManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
         "projectName": "ERP-GraduateManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,11 +125,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -170,21 +168,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
         "projectName": "ERP-LabEquipmentManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,11 +207,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -245,21 +242,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
         "projectName": "ERP-LabScheduleManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,11 +281,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -320,21 +316,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
         "projectName": "ERP-WorkLoadManagement",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -355,11 +355,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -395,21 +390,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj": {
+    "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
+        "projectUniqueName": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
         "projectName": "MudBlazorUI",
-        "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
-        "packagesPath": "C:\\Users\\SHENITH\\.nuget\\packages\\",
-        "outputPath": "E:\\University\\GitHub\\ERP-System-FoE\\MudBlazorUI\\obj\\",
+        "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\MudBlazorUI.csproj",
+        "packagesPath": "C:\\Users\\riyaj\\.nuget\\packages\\",
+        "outputPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\MudBlazorUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SHENITH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\riyaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -424,20 +423,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj": {
-                "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj"
+              "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj": {
+                "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-EvaluationManagement\\ERP-EvaluationManagement.csproj"
               },
-              "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
-                "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj"
+              "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj": {
+                "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-GraduateManagement\\ERP-GraduateManagement.csproj"
               },
-              "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
-                "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj"
+              "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj": {
+                "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabEquipmentManagement\\ERP-LabEquipmentManagement.csproj"
               },
-              "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
-                "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj"
+              "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj": {
+                "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-LabScheduleManagement\\ERP-LabScheduleManagement.csproj"
               },
-              "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
-                "projectPath": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj"
+              "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj": {
+                "projectPath": "E:\\Campus\\Semester 06\\Projects\\ERP_ALL\\ERP-System-FoE\\ERP-WorkLoadManagement\\ERP-WorkLoadManagement.csproj"
               }
             }
           }
@@ -446,11 +445,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -505,13 +499,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             },
             "MudBlazor": {
@@ -545,7 +539,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.3, 8.0.3]"
+              "version": "[8.0.1, 8.0.1]"
             }
           ],
           "frameworkReferences": {
@@ -553,7 +547,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
