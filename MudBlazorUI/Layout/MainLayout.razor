@@ -16,18 +16,18 @@
 <MudLayout>
     <MudAppBar  Elevation="2" Style="background-color: rgba(0, 0, 0, 0.5); width: 100%">
        
-@*         <AuthorizeView>
+        <AuthorizeView>
             <Authorized>
         <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
         Color="Color.Inherit"
         Edge="Edge.Start"
         OnClick="@DrawerToggle" />
             </Authorized>
-        </AuthorizeView> *@
-        <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
+        </AuthorizeView>
+@*         <MudIconButton Icon="@(_drawerOpen==false ? Icons.Material.Filled.Menu : Icons.Material.Filled.Close)"
                        Color="Color.Inherit"
                        Edge="Edge.Start"
-                       OnClick="@DrawerToggle" />
+                       OnClick="@DrawerToggle" /> *@
 
         <a href="/">
             <MudText Typo="Typo.h5" Class="px-4" Style="color: white;">Faculty of Engineering</MudText>
@@ -71,18 +71,18 @@
 
     </MudAppBar>
       
-@*     <AuthorizeView>
+    <AuthorizeView>
         <Authorized>
 
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
     <NavMenu />
     </MudDrawer>
         </Authorized>
-    </AuthorizeView> *@
+    </AuthorizeView>
 
-    <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+@*     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />
-    </MudDrawer>
+    </MudDrawer> *@
 
 
     <MudMainContent>
@@ -97,6 +97,15 @@
 
 
 <Footer/>
+
+<script>
+    function saveAsFile(fileName, byteBase64) {
+        var link = document.createElement('a');
+        link.href = 'data:application/octet-stream;base64,' + byteBase64;
+        link.download = fileName;
+        link.click();
+    }
+</script>
 @code {
     private bool _drawerOpen = false;
     private bool themeOn;

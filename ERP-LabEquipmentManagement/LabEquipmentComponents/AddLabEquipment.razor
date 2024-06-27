@@ -229,7 +229,8 @@
 
             if (response.IsSuccessStatusCode)
             {
-                Snackbar.Add("Lab Equipments added successfully.", MudBlazor.Severity.Success);
+                await onAdded.InvokeAsync();
+                //Snackbar.Add("Lab Equipments added successfully.", MudBlazor.Severity.Success);
             }
             else
             {

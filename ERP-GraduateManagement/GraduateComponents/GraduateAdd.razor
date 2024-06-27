@@ -73,8 +73,8 @@
             <InputFile OnChange="HandleFileSelected" />
         </MudItem>
 
-        <MudButton Disabled="@_processing" OnClick="@(async () => await UploadFile())" Variant="Variant.Filled" Color="Color.Primary">
-            @if (_processing)
+        <MudButton Disabled="@_processing2" OnClick="@(async () => await UploadFile())" Variant="Variant.Filled" Color="Color.Primary">
+            @if (_processing2)
             {
                 <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
                 <MudText Class="ms-2">Processing</MudText>
@@ -92,6 +92,7 @@
 
 @code {
     private bool _processing = false;
+    private bool _processing2 = false;
 
     [Parameter]
     public EventCallback onAdded { get; set; }
@@ -162,7 +163,7 @@
                 {
                     await onAdded.InvokeAsync();
                     form.Reset();
-                    Snackbar.Add("Graduate Added Successfully", MudBlazor.Severity.Success);
+                    //Snackbar.Add("Graduate Added Successfully", MudBlazor.Severity.Success);
                 }
                 else
                 {
@@ -188,7 +189,7 @@
 
     private async Task UploadFile()
     {
-        _processing = true;
+        _processing2 = true;
         if (selectedFile != null)
         {
             var content = new MultipartFormDataContent();
@@ -200,8 +201,8 @@
 
             if (response.IsSuccessStatusCode)
             {
-                
-                Snackbar.Add("Graduates added successfully.", MudBlazor.Severity.Success);
+                await onAdded.InvokeAsync();
+                //Snackbar.Add("Alumni added successfully.", MudBlazor.Severity.Success);
             }
             else
             {
@@ -212,7 +213,7 @@
         {
             Snackbar.Add("No file selected.", MudBlazor.Severity.Warning);
         }
-        _processing = false;
+        _processing2 = false;
         
     }
 }
