@@ -118,8 +118,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteIncomingStaffRequest.razor",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:50:37.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:50:37.842Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteIOutgoingStaffRequest.razor",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:50:42.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:50:42.019Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteStudentRequest.razor",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:50:43.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:50:43.89Z"
             },
             {
               "$type": "Document",
@@ -155,7 +152,7 @@
               "RelativeDocumentMoniker": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteTeacherRequest.razor",
               "ToolTip": "E:\\University\\GitHub\\ERP-System-FoE\\ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteTeacherRequest.razor",
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\ConfirmDeleteTeacherRequest.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAABYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-27T09:50:45.191Z",
               "EditorCaption": ""
@@ -170,8 +167,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayIncomingStaffRequests.razor",
               "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:59:54.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:59:54.79Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayOutgoingStaffRequests.razor",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T10:00:11.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T10:00:11.23Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayTeacherRequests.razor",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:56:05.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:56:05.394Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "ERP-EvaluationManagement\\RequestManagementPages\\Components\\DisplayStudentRequests.razor",
               "ViewState": "AQIAADkAAAAAAAAAAAAmwDIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T09:54:49.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T09:54:49.513Z"
             },
             {
               "$type": "Document",
@@ -258,8 +251,7 @@
               "RelativeToolTip": "MudBlazorUI\\Pages\\Admin\\Account\\EmailConfrimSuccess.razor",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-26T20:06:04.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T20:06:04.011Z"
             },
             {
               "$type": "Document",
