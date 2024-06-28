@@ -102,8 +102,8 @@
             <InputFile OnChange="HandleFileSelected" />
         </MudItem>
 
-        <MudButton Disabled="@_processing" OnClick="@(async () => await UploadFile())" Variant="Variant.Filled" Color="Color.Primary">
-            @if (_processing)
+        <MudButton Disabled="@_processing2" OnClick="@(async () => await UploadFile())" Variant="Variant.Filled" Color="Color.Primary">
+            @if (_processing2)
             {
                 <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
                 <MudText Class="ms-2">Processing</MudText>
@@ -120,6 +120,7 @@
 
 @code {
     private bool _processing = false;
+    private bool _processing2 = false;
 
     [Parameter]
     public EventCallback onAdded { get; set; }
@@ -217,7 +218,7 @@
 
     private async Task UploadFile()
     {
-        _processing = true;
+        _processing2 = true;
         if (selectedFile != null)
         {
             var content = new MultipartFormDataContent();
@@ -241,7 +242,7 @@
         {
             Snackbar.Add("No file selected.", MudBlazor.Severity.Warning);
         }
-        _processing = false;
+        _processing2 = false;
 
     }
 

@@ -25,8 +25,8 @@
                 <MudTd DataLabel="Work Type">@context.WorkType</MudTd>
                 <MudTd DataLabel="Actions">
                     <div class="button-group">
-                        <MudFab Color="Color.Secondary"
-                                StartIcon="@Icons.Material.Filled.Person" Size="Size.Small" />
+                       @*  <MudFab Color="Color.Secondary"
+                                StartIcon="@Icons.Material.Filled.Person" Size="Size.Small" /> *@
                         <MudFab Color="Color.Primary" OnClick="@(()=>EditWork(context.WorkId))"
                                 StartIcon="@Icons.Material.Filled.Edit" Size="Size.Small" />
                         <MudFab Color="Color.Warning" OnClick="@(()=>DeleteWork(context.WorkId))"

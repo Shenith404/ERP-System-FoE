@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MudBlazorUI",
   "resources": {
-    "hash": "sha256-2Y8h5TRuU8nLWmreGsFSAYnxU4NG5DdMrDEl3dMq6ag=",
+    "hash": "sha256-TrdFueNYxMs2YrDL9rejL2I1xuKyN0/lwPzMzI6NvXU=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.by2htdiu1n.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -266,19 +266,19 @@
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
       "ERP-EvaluationManagement.wasm": "sha256-071miA/wVm17B6QE1clQxe8aZat8lZlJ5VlFKrw2FCc=",
-      "ERP-GraduateManagement.wasm": "sha256-obbwoGZ6fHjzE7g49R46gYpfewMNax6Q3Tj5yqxshSI=",
-      "ERP-LabEquipmentManagement.wasm": "sha256-6hdEYDLyFgrXdAB/CYjuQkiwvx65tK7OVftJpAytzW8=",
+      "ERP-GraduateManagement.wasm": "sha256-Oa3Blc86yRr6Gj06PwYmbLHhKskwQ1qvTJGY+XOeBRQ=",
+      "ERP-LabEquipmentManagement.wasm": "sha256-L9SEIszQsZXeIYntZr4WC8iNVRbhkbtGnem0fyTFcrM=",
       "ERP-LabScheduleManagement.wasm": "sha256-w+miuOGKRF4ilO6qBTjZOpA4FPa8Tg6fnyZDB3IoOdY=",
-      "ERP-WorkLoadManagement.wasm": "sha256-VaypAitNf4DuMeP/X2rMpC1rTgHpWzMH9CD/zkdyxPc=",
-      "MudBlazorUI.wasm": "sha256-dpCVuLswkrzFb4Ph7w6ZFh5x+6q32Tnt0jTRgfdYYoQ="
+      "ERP-WorkLoadManagement.wasm": "sha256-+ghZ43Fec6xFVzFWaV/z4CXY7Z6vPc5aGYWWa5o4OCY=",
+      "MudBlazorUI.wasm": "sha256-kEeo10S3vFmpM6Xzr8BbrmTbY8z2Ka84ssS1wfOypvw="
     },
     "pdb": {
       "ERP-EvaluationManagement.pdb": "sha256-wq4DJZ0660LN1eeCM/AGD5vbqS7aPaByf0zBP77gr7I=",
-      "ERP-GraduateManagement.pdb": "sha256-ggyWEFRbomecoJd18LHHtu4NIkyEDEYOPn4MvgL83Wk=",
-      "ERP-LabEquipmentManagement.pdb": "sha256-092DDGRCSULQ/qgbJVGuinSQXedAussaX7HhExFQ++I=",
+      "ERP-GraduateManagement.pdb": "sha256-2e9Icl7UrODvc2wpCEBUNDGuEHGwo1lH6bO4gBpu9jo=",
+      "ERP-LabEquipmentManagement.pdb": "sha256-4wzQowiaBRUPcVyragQz2MHUCAgbS6WLZPbZDU4A6RQ=",
       "ERP-LabScheduleManagement.pdb": "sha256-GgykJm9uDtaMZIIg7HY0L3D3ysPIVVMFCD/Zz7YQ1M4=",
-      "ERP-WorkLoadManagement.pdb": "sha256-WqLrSGx9/0xnytTt0PNQ/+z102/5jPAg0E3x7xbtJcY=",
-      "MudBlazorUI.pdb": "sha256-qU3TVPqao1DT7YrKKANOZHV+aO4TtHBauYeKdxqr2rA="
+      "ERP-WorkLoadManagement.pdb": "sha256-SPujHeCcxTaNEqyw8KNpoQ5A47o80XTsXWtX5VSTmls=",
+      "MudBlazorUI.pdb": "sha256-+L1Hv4+F0KVnJgr5kI3MfPVvSDdiyI9RtXEeV6z99Bk="
     },
     "satelliteResources": {
       "de": {

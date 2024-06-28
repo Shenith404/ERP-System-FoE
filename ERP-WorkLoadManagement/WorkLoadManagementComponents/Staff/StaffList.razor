@@ -24,7 +24,7 @@
                 <MudTd DataLabel="Staff Type">@context.EmployeeType</MudTd>
                 <MudTd DataLabel="Actions">
                     <div class="button-group">
-                        <MudFab Color="Color.Secondary" StartIcon="@Icons.Material.Filled.Person" Size="Size.Small" />
+                        @* <MudFab Color="Color.Secondary" StartIcon="@Icons.Material.Filled.Person" Size="Size.Small" /> *@
                         <MudFab Color="Color.Primary" StartIcon="@Icons.Material.Filled.Edit" OnClick="@(()=>EditStaff(context.StaffId))" Size="Size.Small" />
                         <MudFab Color="Color.Warning" StartIcon="@Icons.Material.Filled.Delete" OnClick="@(()=>DeleteStaff(context.StaffId))" Size="Size.Small" />
 
