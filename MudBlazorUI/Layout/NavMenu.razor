@@ -59,6 +59,23 @@
            </Authorized>
        </AuthorizeView>
 
+        @* Staff *@
+        <AuthorizeView Roles="Admin,Staff,Lecture">
+           <Authorized>
+                <MudNavGroup Title="Staff" Icon="@Icons.Material.Filled.CloudSync" IconColor="Color.Primary">
+                 
+                </MudNavGroup>
+           </Authorized>
+       </AuthorizeView>
+       @* Studetn *@
+        <AuthorizeView Roles="Reguler">
+           <Authorized>
+                <MudNavGroup Title="Student" Icon="@Icons.Material.Filled.Boy" IconColor="Color.Primary">
+                 
+                </MudNavGroup>
+           </Authorized>
+       </AuthorizeView>
+
     </MudNavMenu>
 
 

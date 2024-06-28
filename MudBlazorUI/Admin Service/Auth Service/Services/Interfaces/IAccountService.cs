@@ -14,5 +14,6 @@ namespace MudBlazorUI.Auth.Services
         public Task<HttpResponseMessage> Enable2FA(TFAEnableRequestDTO tFAEnableRequestDTO);
         public Task<string?> GetProfileImage(string fileName);
         public Task<HttpResponseMessage> UploadProfileImage(MultipartFormDataContent content);
+        public  Task<string?> ResendConfirmationEmail(string email);
     }
 }

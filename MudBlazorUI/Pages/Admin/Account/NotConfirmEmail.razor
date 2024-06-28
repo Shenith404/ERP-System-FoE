@@ -25,12 +25,25 @@
                             </MudText>
 
                             <MudText Style="text-align:center">
-                                You’re temporarily restricted from performing
+                                Your email address is still unconfirmed.
                             </MudText>
                             <MudText Style="text-align:center">
-                                certain actions on the system.
+                                Please Try Again!
                             </MudText>
                         </MudCardContent>
+                        <MudCardActions Style="display: flex; justify-content: center; padding: 2px 10px 10px 10px;">
+                            <MudButton OnClick="Resend" Disabled="@_processing" ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Style="width: 70%; height: 40px; border-radius: 7px; margin: 10px 0;">
+                                @if (_processing)
+                                {
+                                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                                    <MudText Class="ms-2">Sending</MudText>
+                                }
+                                else
+                                {
+                                    <span style="font-family: 'Inter'; font-size: 12px;">Resend</span>
+                                }
+                            </MudButton>
+                        </MudCardActions>
                         <MudCardActions Style="display: flex; justify-content: center; padding: 2px 10px 10px 10px;">
                             <MudButton OnClick="GoToHomePage" ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Style="width: 70%; height: 40px; border-radius: 7px; margin: 10px 0;">
                                 Go To HomePage
@@ -48,8 +61,18 @@
     [CascadingParameter]
     public Task<AuthenticationState> AuthenticationState { get; set; }
 
+
+    private string Email { get; set; }
+
+    private bool _processing = false;
+
     protected override async Task OnInitializedAsync()
     {
+
+        snackbar.Clear();
+        snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopRight;
+        Email = await store.GetItemAsync<string>("Email");
+
         var user = (await AuthenticationState).User;
         if (user.Identity.IsAuthenticated)
         {
@@ -63,5 +86,25 @@
     public void GoToHomePage()
     {
         NavigationManager.NavigateTo("/");
+    }
+
+
+    private async Task Resend()
+    {
+        _processing = true;
+        var result = await accountService.ResendConfirmationEmail(Email);
+
+        if (result != null)
+        {
+            snackbar.Add(result, MudBlazor.Severity.Success);
+        }
+        else
+        {
+            snackbar.Add("Something is wrong , try again", MudBlazor.Severity.Error);
+
+        }
+
+        _processing = false;
+
     }
 }

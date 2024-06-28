@@ -1,9 +1,10 @@
 ﻿@using ERP_EvaluationManagement.DTOs.Responses
 @using System.Net.Http.Json;
 @inject NavigationManager NavigationManager
+@inject IDialogService DialogService
 
 <MudContainer Class="result-container">
-    
+
     <h1 class="result-header pb-3" style="color:purple; text-align:center">Teacher Requests</h1>
     <MudTable Items="_teacherRequests" Dense="true" Hover="true" Bordered="true" Striped="false">
         <HeaderContent>
@@ -12,29 +13,32 @@
             <MudTh Width="120px">Reciever Name</MudTh>
             <MudTh>Reg No</MudTh>
             <MudTh>Header</MudTh>
-            <MudTh></MudTh>
+            <MudTh>Actions</MudTh>
         </HeaderContent>
         <RowTemplate Context="request">
             <MudTd>@request.AddedDate.ToShortDateString()</MudTd>
-                <MudTd>@request.AddedDate.ToShortTimeString()</MudTd>
-                <MudTd>@request.RecieverName</MudTd>
-                <MudTd>@request.RecieverRegistrationNum</MudTd>
-                <MudTd>@GetTypeAsString(request.Header)</MudTd>
-                <MudTd>
-                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(request.SenderId, request.RequestId)">
-                        <b><ul style="text-decoration: underline; font-size: 12px;">View details</ul></b>
-                    </MudButton>
-                </MudTd>
-            </RowTemplate>
-            <PagerContent>
-                <MudTablePager />
-            </PagerContent>
-        </MudTable>
+            <MudTd>@request.AddedDate.ToShortTimeString()</MudTd>
+            <MudTd>@request.RecieverName</MudTd>
+            <MudTd>@request.RecieverRegistrationNum</MudTd>
+            <MudTd>@GetTypeAsString(request.Header)</MudTd>
+            <MudTd>
+                <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Delete" Color="Color.Error" @onclick="() => DeleteRequest(request.RequestId)" />
+            </MudTd>
+            <MudTd>
+                <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(request.SenderId, request.RequestId)">
+                    <b><ul style="text-decoration: underline; font-size: 12px;">View details</ul></b>
+                </MudButton>
+            </MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
 </MudContainer>
 
     <style>
         .result-container {
-            width: 130%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
+            width: 135%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
         }
     </style>
 
@@ -57,6 +61,15 @@
     private void ViewModuleInformation(Guid senderId, Guid requestId)
     {
         NavigationManager.NavigateTo($"/RequestManagementTabs/TeacherRequest/{requestId}/{senderId}");
+    }
+
+    async Task DeleteRequest(Guid requeestId)
+    {
+        var parameters = new DialogParameters { ["RequestId"] = requeestId };
+        var dialog = await DialogService.ShowAsync<ConfirmDeleteTeacherRequest>("Confirm Delete", parameters);
+        var result = await dialog.Result;
+        await LoadModulesAsync();
+
     }
 
     private string GetTypeAsString(int type)

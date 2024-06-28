@@ -60,6 +60,20 @@ namespace MudBlazorUI.Auth.Services
 
             else return null;
         }
+        
+        public async Task<string?> ResendConfirmationEmail(string email)
+        {
+            var result = await _factory.CreateClient("ServerApi").PostAsJsonAsync("ApiGateWay/Auth-api/Account/Resend-Confirmation-Email", email);
+            if (result.IsSuccessStatusCode)
+            {
+                var content = await result.Content.ReadAsStringAsync();
+
+                return content;
+                
+            }
+
+            else return null;
+        }
 
         public async Task<HttpResponseMessage> ChangePassword(ChangePasswordRequestDTO changePassword)
         {

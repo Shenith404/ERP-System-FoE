@@ -29,6 +29,13 @@
                                 <MudText Align="Align.Center" Style="@($"color:{Colors.Green.Default}; padding-top: 5px;")" Typo="Typo.h4">
                                     <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">@message</span>
                                 </MudText>
+
+                                <MudText Style="text-align:center">
+                                    Your email has been successfully confirmed
+                                </MudText>
+                                <MudText Style="text-align:center">
+                                    Welcome to our System!
+                                </MudText>
                             }else{
                                 <MudCardContent Style="display: flex; justify-content: center;">
                                     <MudIcon Icon="@Icons.Material.Filled.Email" Color="Color.Error" Size="Size.Large"></MudIcon>
@@ -36,14 +43,15 @@
                                 <MudText Align="Align.Center" Style="@($"color:{Colors.Red.Default}; padding-top: 5px;")" Typo="Typo.h4">
                                     <span style="font-weight: bold; font-family: 'Inter'; font-size: 22px;">@message</span>
                                 </MudText>
+
+                                <MudText Style="text-align:center">
+                                    Your email address is still unconfirmed.
+                                </MudText>
+                                <MudText Style="text-align:center">
+                                    Please Try Again!
+                                </MudText>
                             }
 
-                            <MudText Style="text-align:center">
-                                You’re temporarily restricted from performing
-                            </MudText>
-                            <MudText Style="text-align:center">
-                                certain actions on the system.
-                            </MudText>
                         </MudCardContent>
                         <MudCardActions Style="display: flex; justify-content: center; padding: 2px 10px 10px 10px;">
                             <MudButton OnClick="GoToHomePage" ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" Size="Size.Medium" Style="width: 70%; height: 40px; border-radius: 7px; margin: 10px 0;">
@@ -68,6 +76,7 @@
     public string Code { get; set; }
 
     private string message="Please wait";
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -124,6 +133,11 @@
         }
     }
 
+    public void Resend()
+    {
+        
+    } 
+    
     public void GoToHomePage()
     {
         NavigationManager.NavigateTo("/");

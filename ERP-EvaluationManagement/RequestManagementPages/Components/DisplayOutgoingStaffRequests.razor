@@ -2,6 +2,7 @@
 @using System.Net.Http.Json;
 @inject NavigationManager NavigationManager
 @inject ISnackbar Snackbar
+@inject IDialogService DialogService
 
 <MudContainer Class="result-container">
     <h1 class="result-header pb-3" style="color:purple; text-align:center">Staff Outgoing Requests</h1>
@@ -11,29 +12,31 @@
             <MudTh>Time</MudTh>
             <MudTh>Reciever Name</MudTh>
             <MudTh>Header</MudTh>
-            <MudTh></MudTh>
+            <MudTh>Actions</MudTh>
         </HeaderContent>
         <RowTemplate Context="request">
             <MudTd>@request.AddedDate.ToShortDateString()</MudTd>
-                <MudTd>@request.AddedDate.ToShortDateString()</MudTd>
-                <MudTd>@request.AddedDate.ToShortTimeString()</MudTd>
-                <MudTd>@request.RecieverName</MudTd>
-                <MudTd>@GetTypeAsString(request.Header)</MudTd>
-                <MudTd>
-                    <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(request.RecieverId, request.RequestId)"><b><ul style="text-decoration: underline;">View Details</ul></b></MudButton>
-                </MudTd>
-            </RowTemplate>
-            <PagerContent>
-                <MudTablePager />
-            </PagerContent>
-        </MudTable>
+            <MudTd>@request.AddedDate.ToShortTimeString()</MudTd>
+            <MudTd>@request.RecieverName</MudTd>
+            <MudTd>@GetTypeAsString(request.Header)</MudTd>
+            <MudTd>
+                <MudIconButton Variant="Variant.Filled" Icon="@Icons.Material.Filled.Delete" Color="Color.Error" @onclick="() => DeleteRequest(request.RequestId)" />
+            </MudTd>
+            <MudTd>
+                <MudButton EndIcon="@Icons.Material.Filled.KeyboardDoubleArrowRight" @onclick="() => ViewModuleInformation(request.RecieverId, request.RequestId)"><b><ul style="text-decoration: underline;">View Details</ul></b></MudButton>
+            </MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
 </MudContainer>
 
-    <style>
-        .result-container {
-            width: 130%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
-        }
-    </style>
+<style>
+    .result-container {
+        width: 135%; /* or any specific width you desire, e.g., 80%, 1200px, etc. */
+    }
+</style>
 
 @code {
     public String teacherId = "af8ad6c4-46f2-4bf8-9628-9cf34e122893";
@@ -42,10 +45,10 @@
 
     protected override async Task OnInitializedAsync()
     {
-        await LoadModulesAsync();
+        await LoadRequestAsync();
     }
 
-    private async Task LoadModulesAsync()
+    private async Task LoadRequestAsync()
     {
         _outgoingStaffRequests = await Http.GetFromJsonAsync<List<GetStaffMessagesResponse>>($"https://localhost:7111/ApiGateWay/Request-api/StaffRequest/Outgoing/{teacherId}");
         _outgoingStaffRequests.Sort((x, y) => y.AddedDate.CompareTo(x.AddedDate));
@@ -54,6 +57,15 @@
     private void ViewModuleInformation(Guid recieverId, Guid requestId)
     {
         NavigationManager.NavigateTo($"/RequestManagementTabs/StaffRequest/Outgoing/{requestId}/{recieverId}");
+    }
+
+    async Task DeleteRequest(Guid requeestId)
+    {
+        var parameters = new DialogParameters { ["RequestId"] = requeestId };
+        var dialog = await DialogService.ShowAsync<ConfirmDeleteIOutgoingStaffRequest>("Confirm Delete", parameters);
+        var result = await dialog.Result;
+        await LoadRequestAsync();
+
     }
 
     private string GetTypeAsString(int type)
